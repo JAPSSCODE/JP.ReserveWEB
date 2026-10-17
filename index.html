@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JP.ReserveCo | Luxury Personal Shopping UK</title>
+  <meta name="description" content="JP.ReserveCo is a UK luxury personal shopping service. Authenticated designer bags, footwear and clothing, sourced to order, plus a simple way to sell your pre-owned luxury items.">
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="icon" href="Media/IMG_9218.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=27">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="announce">
+    <p>100% authenticity guaranteed <span aria-hidden="true">·</span> UK tracked delivery <span aria-hidden="true">·</span> Items sourced on request</p>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="JP.ReserveCo home">
+        <span class="logo-mark logo-mark-sm" aria-hidden="true"><img src="Media/IMG_9218.jpeg" alt="" width="1206" height="1381"></span>
+        <span class="wordmark">
+          <span class="wordmark-name">JP.ReserveCo</span>
+          <span class="wordmark-tag">Personal Shopping</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main">
+        <ul>
+          <li><a href="#latest" data-nav-filter="all">Latest Arrivals</a></li>
+          <li>
+            <button type="button" class="nav-drop-toggle" id="brands-toggle" aria-expanded="false" aria-controls="brands-menu">
+              Brands
+              <svg aria-hidden="true" class="icon nav-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="nav-drop-toggle" id="clothing-toggle" aria-expanded="false" aria-controls="clothing-menu">
+              Clothing
+              <svg aria-hidden="true" class="icon nav-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="nav-drop-toggle" id="footwear-toggle" aria-expanded="false" aria-controls="footwear-menu">
+              Footwear
+              <svg aria-hidden="true" class="icon nav-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+          </li>
+          <li><a href="#accessories" data-nav-filter="accessories">Accessories</a></li>
+          <li><a href="#pre-loved" data-nav-filter="preloved">Pre-Loved</a></li>
+          <li>
+            <button type="button" class="nav-drop-toggle nav-sale" id="sale-toggle" aria-expanded="false" aria-controls="sale-menu">
+              Sale
+              <svg aria-hidden="true" class="icon nav-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <a class="btn btn-gold btn-sm header-cta" data-wa="Hi JP, I'd like to make an enquiry." href="#" target="_blank" rel="noopener">
+        <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+
+    <!-- BRANDS MEGA MENU -->
+    <div class="mega-menu mega-menu-brands" id="brands-menu" hidden>
+      <div class="container mega-inner">
+        <div class="mega-col">
+          <a href="#brands" class="mega-head">View All Brands</a>
+          <ul class="mega-links">
+            <li><a href="#clothing" data-nav-filter="clothing">All Clothing</a></li>
+            <li><a href="#footwear" data-nav-filter="footwear">All Footwear</a></li>
+            <li><a href="#accessories" data-nav-filter="accessories">All Accessories</a></li>
+          </ul>
+        </div>
+        <div class="mega-col">
+          <p class="mega-head">Trending Brands</p>
+          <!-- Filled from TRENDING_BRANDS in js/data.js -->
+          <ul class="mega-links mega-brands trending-brands"></ul>
+        </div>
+        <div class="mega-tiles">
+          <a href="#brand-louis-vuitton" data-nav-filter="brand:Louis Vuitton" class="mega-tile">
+            <span class="mega-img"><img src="Media/IMG_9293.jpeg" alt="" loading="lazy" style="--zoom: 1.3; --fx: 45%; --fy: 75%"></span>
+            <span class="mega-label">Louis Vuitton</span>
+          </a>
+          <a href="#brand-goyard" data-nav-filter="brand:Goyard" class="mega-tile">
+            <span class="mega-img"><img src="Media/IMG_9872.jpeg" alt="" loading="lazy" style="--fy: 45%"></span>
+            <span class="mega-label">Goyard</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CLOTHING MEGA MENU
+         Links filter stock using the "line" ("activewear" / "designer") and "set" fields in js/data.js -->
+    <div class="mega-menu mega-menu-brands" id="clothing-menu" hidden>
+      <div class="container mega-inner">
+        <div class="mega-col">
+          <a href="#clothing-activewear" data-nav-filter="clothing+line:activewear" class="mega-head">Activewear</a>
+          <ul class="mega-links">
+            <li><a href="#clothing-activewear-asics" data-nav-filter="clothing+line:activewear+brand:Asics">Asics</a></li>
+            <li><a href="#clothing-activewear-nike" data-nav-filter="clothing+line:activewear+brand:Nike">Nike</a></li>
+            <li><a href="#clothing-activewear-berghaus" data-nav-filter="clothing+line:activewear+brand:Berghaus">Berghaus</a></li>
+          </ul>
+          <a href="#clothing-activewear-sets" data-nav-filter="clothing+line:activewear+set" class="mega-subhead">Sets</a>
+          <a href="#clothing" data-nav-filter="clothing" class="mega-view-all">View All Clothing</a>
+        </div>
+        <div class="mega-col">
+          <a href="#clothing-designer" data-nav-filter="clothing+line:designer" class="mega-head">Designer</a>
+          <ul class="mega-links mega-brands mega-brands-short">
+            <li><a href="#clothing-designer-louis-vuitton" data-nav-filter="clothing+line:designer+brand:Louis Vuitton">Louis Vuitton</a></li>
+            <li><a href="#clothing-designer-prada" data-nav-filter="clothing+line:designer+brand:Prada">Prada</a></li>
+            <li><a href="#clothing-designer-burberry" data-nav-filter="clothing+line:designer+brand:Burberry">Burberry</a></li>
+            <li><a href="#clothing-designer-canada-goose" data-nav-filter="clothing+line:designer+brand:Canada Goose">Canada Goose</a></li>
+            <li><a href="#clothing-designer-chrome-hearts" data-nav-filter="clothing+line:designer+brand:Chrome Hearts">Chrome Hearts</a></li>
+            <li><a href="#clothing-designer-moncler" data-nav-filter="clothing+line:designer+brand:Moncler">Moncler</a></li>
+            <li><a href="#clothing-designer-dior" data-nav-filter="clothing+line:designer+brand:Dior">Dior</a></li>
+            <li><a href="#clothing-designer-loro-piana" data-nav-filter="clothing+line:designer+brand:Loro Piana">Loro Piana</a></li>
+            <li><a href="#clothing-designer-casablanca" data-nav-filter="clothing+line:designer+brand:Casablanca">Casablanca</a></li>
+          </ul>
+        </div>
+        <div class="mega-tiles">
+          <!-- Swap these photos for clothing shots when you have them -->
+          <a href="#clothing-activewear" data-nav-filter="clothing+line:activewear" class="mega-tile">
+            <span class="mega-img"><img src="Media/IMG_9406.jpeg" alt="" loading="lazy" style="--zoom: 1.5; --fx: 55%; --fy: 55%"></span>
+            <span class="mega-label">Activewear</span>
+          </a>
+          <a href="#clothing-designer" data-nav-filter="clothing+line:designer" class="mega-tile">
+            <span class="mega-img"><img src="Media/3563E767-1866-4D4A-9467-289ED9177851.jpeg" alt="" loading="lazy" style="--fy: 30%"></span>
+            <span class="mega-label">Designer</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTWEAR MEGA MENU
+         Model links match the "model" field in js/data.js; Designer matches line: "designer" -->
+    <div class="mega-menu mega-menu-brands mega-menu-footwear" id="footwear-menu" hidden>
+      <div class="container mega-inner">
+        <div class="mega-col">
+          <a href="#footwear-nike" data-nav-filter="footwear+brand:Nike" data-title="Nike Footwear" class="mega-head">Nike</a>
+          <ul class="mega-links">
+            <li><a href="#footwear-nike-p6000" data-nav-filter="footwear+brand:Nike+model:p6000" data-title="Nike P6000">P6000</a></li>
+            <li><a href="#footwear-nike-air-max" data-nav-filter="footwear+brand:Nike+model:air-max" data-title="Nike Air Max">Air Max</a></li>
+            <li><a href="#footwear-nike-air-force" data-nav-filter="footwear+brand:Nike+model:air-force" data-title="Nike Air Force">Air Force</a></li>
+          </ul>
+          <a href="#footwear" data-nav-filter="footwear" class="mega-view-all">View All Footwear</a>
+        </div>
+        <div class="mega-col">
+          <a href="#footwear-asics" data-nav-filter="footwear+brand:Asics" data-title="Asics Footwear" class="mega-head">Asics</a>
+          <ul class="mega-links">
+            <li><a href="#footwear-asics-1130" data-nav-filter="footwear+brand:Asics+model:1130" data-title="Asics 1130's">1130<span class="lc">'s</span></a></li>
+            <li><a href="#footwear-asics-kayano-14" data-nav-filter="footwear+brand:Asics+model:kayano-14" data-title="Asics Kayano 14's">Kayano 14<span class="lc">'s</span></a></li>
+            <li><a href="#footwear-asics-nyc" data-nav-filter="footwear+brand:Asics+model:nyc" data-title="Asics NYC's">NYC<span class="lc">'s</span></a></li>
+            <li><a href="#footwear-asics-gel-venture-6" data-nav-filter="footwear+brand:Asics+model:gel-venture-6" data-title="Asics Gel Venture 6's">Gel Venture 6<span class="lc">'s</span></a></li>
+          </ul>
+        </div>
+        <div class="mega-col">
+          <a href="#footwear-saucony" data-nav-filter="footwear+brand:Saucony" data-title="Saucony Footwear" class="mega-head">Saucony</a>
+          <ul class="mega-links">
+            <li><a href="#footwear-saucony" data-nav-filter="footwear+brand:Saucony" data-title="Saucony Footwear">Shop All Saucony</a></li>
+          </ul>
+        </div>
+        <div class="mega-col">
+          <a href="#footwear-designer" data-nav-filter="footwear+line:designer" class="mega-head">Designer</a>
+          <ul class="mega-links mega-brands mega-brands-short">
+            <li><a href="#footwear-designer-louis-vuitton" data-nav-filter="footwear+line:designer+brand:Louis Vuitton">Louis Vuitton</a></li>
+            <li><a href="#footwear-designer-hermes" data-nav-filter="footwear+line:designer+brand:Hermès">Hermès</a></li>
+            <li><a href="#footwear-designer-dior" data-nav-filter="footwear+line:designer+brand:Dior">Dior</a></li>
+            <li><a href="#footwear-designer-prada" data-nav-filter="footwear+line:designer+brand:Prada">Prada</a></li>
+            <li><a href="#footwear-designer-chanel" data-nav-filter="footwear+line:designer+brand:Chanel">Chanel</a></li>
+            <li><a href="#footwear-designer-loro-piana" data-nav-filter="footwear+line:designer+brand:Loro Piana">Loro Piana</a></li>
+            <li><a href="#footwear-designer-burberry" data-nav-filter="footwear+line:designer+brand:Burberry">Burberry</a></li>
+            <li><a href="#footwear-designer-christian-louboutin" data-nav-filter="footwear+line:designer+brand:Christian Louboutin">Christian Louboutin</a></li>
+          </ul>
+        </div>
+        <div class="mega-tiles">
+          <a href="#footwear-saucony" data-nav-filter="footwear+brand:Saucony" data-title="Saucony Footwear" class="mega-tile">
+            <span class="mega-img"><img src="Media/IMG_9406.jpeg" alt="" loading="lazy" style="--zoom: 1.5; --fx: 55%; --fy: 55%"></span>
+            <span class="mega-label">Saucony</span>
+          </a>
+          <a href="#footwear-designer" data-nav-filter="footwear+line:designer" class="mega-tile">
+            <span class="mega-img"><img src="Media/IMG_9293.jpeg" alt="" loading="lazy" style="--zoom: 1.2; --fx: 45%; --fy: 70%"></span>
+            <span class="mega-label">Designer</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- SALE MEGA MENU -->
+    <div class="mega-menu" id="sale-menu" hidden>
+      <div class="container mega-inner">
+        <div class="mega-col">
+          <a href="#sale" data-nav-filter="sale" class="mega-head">View All Sale</a>
+          <ul class="mega-links">
+            <li><a href="#sale-clothing" data-nav-filter="sale-clothing">All Sale Clothing</a></li>
+            <li><a href="#sale-footwear" data-nav-filter="sale-footwear">All Sale Footwear</a></li>
+            <li><a href="#sale-accessories" data-nav-filter="sale-accessories">All Sale Accessories</a></li>
+          </ul>
+        </div>
+        <div class="mega-col">
+          <p class="mega-head">Trending Brands</p>
+          <!-- Filled from SALE_TRENDING_BRANDS in js/data.js -->
+          <ul class="mega-links mega-brands mega-brands-short" id="sale-brands"></ul>
+        </div>
+        <div class="mega-tiles">
+          <a href="#sale-footwear" data-nav-filter="sale-footwear" class="mega-tile">
+            <span class="mega-img"><img src="Media/IMG_9406.jpeg" alt="" loading="lazy" style="--zoom: 1.5; --fx: 55%; --fy: 55%"></span>
+            <span class="mega-label">Sale Footwear</span>
+          </a>
+          <a href="#sale-accessories" data-nav-filter="sale-accessories" class="mega-tile">
+            <span class="mega-img"><img src="Media/IMG_9401.jpeg" alt="" loading="lazy" style="--fy: 58%"></span>
+            <span class="mega-label">Sale Accessories</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero">
+      <!-- Shoe montage. The .mov is H.264, so type="video/mp4" lets Chrome/Edge/Safari play it.
+           If you export an .mp4 later, add it as the first <source>. -->
+      <video class="hero-bg" id="hero-video" autoplay muted loop playsinline preload="auto" poster="Media/IMG_9293.jpeg" aria-hidden="true">
+        <source src="Media/copy_EB72F6FF-6D22-4C18-8544-6E9E620C5939.mov" type="video/mp4">
+      </video>
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <div class="logo-mark hero-mark"><img src="Media/IMG_9218.jpeg" alt="JP.ReserveCo monogram" width="1206" height="1381"></div>
+        <p class="eyebrow">UK Luxury Personal Shopping</p>
+        <h1>Luxury, sourced<br><em>for you.</em></h1>
+        <p class="lede">Authenticated designer bags, footwear and clothing, found to order and delivered across the UK.</p>
+        <div class="hero-ctas">
+          <a href="#stock" class="btn btn-gold">Shop the edit</a>
+          <a href="#sourcing" class="btn btn-ghost">Request an item</a>
+        </div>
+      </div>
+      <button class="video-toggle" id="video-toggle" aria-label="Pause background video" aria-pressed="false">
+        <svg aria-hidden="true" class="icon icon-pause" viewBox="0 0 24 24"><path d="M9 5v14M15 5v14"/></svg>
+        <svg aria-hidden="true" class="icon icon-play" viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5z"/></svg>
+      </button>
+    </section>
+
+    <!-- TRUST STRIP -->
+    <section class="trust" aria-label="Why JP.ReserveCo">
+      <ul class="container trust-grid">
+        <li>
+          <svg aria-hidden="true" class="icon icon-lg" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+          <h2>Guaranteed authentic</h2>
+          <p>Every item is checked before it reaches you.</p>
+        </li>
+        <li>
+          <svg aria-hidden="true" class="icon icon-lg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <h2>Sourcing on request</h2>
+          <p>Can't see it here? We'll find it for you.</p>
+        </li>
+        <li>
+          <svg aria-hidden="true" class="icon icon-lg" viewBox="0 0 24 24"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg>
+          <h2>Tracked UK delivery</h2>
+          <p>Fast, insured and fully tracked.</p>
+        </li>
+        <li>
+          <svg aria-hidden="true" class="icon icon-lg" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>
+          <h2>1-to-1 service</h2>
+          <p>Personal advice on sizing, styling and pricing.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- STOCK -->
+    <section class="section" id="stock">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title" id="stock-title" aria-live="polite">Latest Arrivals</h2>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filter stock">
+          <button class="filter is-active" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter" data-filter="clothing" aria-pressed="false">Clothing</button>
+          <button class="filter" data-filter="footwear" aria-pressed="false">Footwear</button>
+          <button class="filter" data-filter="bags" aria-pressed="false">Bags</button>
+          <button class="filter" data-filter="accessories" aria-pressed="false">Accessories</button>
+          <button class="filter" data-filter="preloved" aria-pressed="false">Pre-Loved</button>
+          <button class="filter filter-sale" data-filter="sale" aria-pressed="false">Sale</button>
+          <button class="filter filter-saved" data-filter="saved" aria-pressed="false" hidden>
+            <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+            Saved (<span id="saved-count">0</span>)
+          </button>
+        </div>
+
+        <div class="carousel" id="stock-carousel">
+          <button type="button" class="carousel-btn carousel-prev" aria-label="Previous items" aria-controls="product-grid">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+          <!-- Newest first: items appear in the order they're listed in js/data.js -->
+          <ul class="product-grid carousel-track" id="product-grid" tabindex="0" aria-label="Products — scroll sideways or use the arrow buttons"></ul>
+          <button type="button" class="carousel-btn carousel-next" aria-label="Next items" aria-controls="product-grid">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>
+          </button>
+        </div>
+        <div class="carousel-progress" aria-hidden="true"><span id="carousel-bar"></span></div>
+        <p class="empty-state" id="empty-state" hidden>Nothing in this category right now. <a href="#sourcing">Send a sourcing request</a> and we'll find it for you.</p>
+      </div>
+    </section>
+
+    <!-- BRANDS -->
+    <section class="brands" id="brands" aria-label="Brands we source">
+      <div class="container">
+        <p class="eyebrow">Brands we source</p>
+        <!-- Filled from TRENDING_BRANDS in js/data.js -->
+        <ul class="brand-list" id="brand-list"></ul>
+      </div>
+    </section>
+
+    <!-- SOURCING -->
+    <section class="section split" id="sourcing">
+      <div class="container split-grid">
+        <div class="split-copy">
+          <p class="eyebrow">Personal shopping</p>
+          <h2 class="section-title">Can't find it?<br><em>We'll source it.</em></h2>
+          <p>Tell us what you're after: a sold-out colourway, a hard-to-find size or a gift. We'll use our network to find it, authenticate it and bring it to you.</p>
+          <ol class="steps">
+            <li><span>01</span><div><h3>Tell us the item</h3><p>Brand, model, size and budget.</p></div></li>
+            <li><span>02</span><div><h3>We find it</h3><p>Options and prices sent straight to your WhatsApp.</p></div></li>
+            <li><span>03</span><div><h3>Delivered to you</h3><p>Authenticated and sent tracked across the UK.</p></div></li>
+          </ol>
+        </div>
+
+        <form class="card form" id="sourcing-form" novalidate>
+          <h3 class="form-title">Sourcing request</h3>
+          <div class="field">
+            <label for="s-name">Your name <span class="req" aria-hidden="true">*</span></label>
+            <input id="s-name" name="Name" autocomplete="name" required>
+            <p class="error" id="s-name-err"></p>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="s-brand">Brand <span class="req" aria-hidden="true">*</span></label>
+              <input id="s-brand" name="Brand" required>
+              <p class="error" id="s-brand-err"></p>
+            </div>
+            <div class="field">
+              <label for="s-size">Size</label>
+              <input id="s-size" name="Size">
+            </div>
+          </div>
+          <div class="field">
+            <label for="s-item">Item <span class="req" aria-hidden="true">*</span></label>
+            <input id="s-item" name="Item" required aria-describedby="s-item-help">
+            <p class="help" id="s-item-help">For example, "Goyard Saint Louis PM in green".</p>
+            <p class="error" id="s-item-err"></p>
+          </div>
+          <div class="field">
+            <label for="s-budget">Budget (£)</label>
+            <input id="s-budget" name="Budget" inputmode="numeric">
+          </div>
+          <div class="field">
+            <label for="s-notes">Anything else?</label>
+            <textarea id="s-notes" name="Notes" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold btn-block">Send request on WhatsApp</button>
+          <p class="form-note">Opens WhatsApp with your request pre-filled.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- SELL YOUR ITEM -->
+    <section class="section split split-alt" id="sell">
+      <div class="container split-grid">
+        <div class="split-copy">
+          <img class="sell-badge" src="Media/IMG_9228.jpeg" alt="Sell Your Item badge" width="823" height="880" loading="lazy">
+          <p class="eyebrow">Sell your item</p>
+          <h2 class="section-title">Turn your luxury<br><em>into cash.</em></h2>
+          <p>We buy authentic pre-owned designer pieces. Send a few photos and you'll get a fair, no-obligation offer, usually within 24 hours.</p>
+          <ol class="steps">
+            <li><span>01</span><div><h3>Send photos</h3><p>Front, back, tags, serials and receipt if you have it.</p></div></li>
+            <li><span>02</span><div><h3>Get an offer</h3><p>A fair, honest valuation with no obligation.</p></div></li>
+            <li><span>03</span><div><h3>Get paid</h3><p>Fast payment once your item is authenticated.</p></div></li>
+          </ol>
+        </div>
+
+        <form class="card form" id="sell-form" novalidate>
+          <h3 class="form-title">Get a valuation</h3>
+          <div class="field">
+            <label for="v-name">Your name <span class="req" aria-hidden="true">*</span></label>
+            <input id="v-name" name="Name" autocomplete="name" required>
+            <p class="error" id="v-name-err"></p>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="v-brand">Brand <span class="req" aria-hidden="true">*</span></label>
+              <input id="v-brand" name="Brand" required>
+              <p class="error" id="v-brand-err"></p>
+            </div>
+            <div class="field">
+              <label for="v-condition">Condition</label>
+              <select id="v-condition" name="Condition">
+                <option>New with tags</option>
+                <option>Excellent</option>
+                <option>Very good</option>
+                <option>Good</option>
+                <option>Fair</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="v-item">Item <span class="req" aria-hidden="true">*</span></label>
+            <input id="v-item" name="Item" required>
+            <p class="error" id="v-item-err"></p>
+          </div>
+          <div class="field">
+            <label for="v-extras">Box, dust bag or receipt?</label>
+            <input id="v-extras" name="Includes" placeholder="e.g. Box and dust bag">
+          </div>
+          <button type="submit" class="btn btn-gold btn-block">Send on WhatsApp</button>
+          <p class="form-note">You can attach your photos in the WhatsApp chat.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <figure class="about-photo">
+          <img src="Media/3563E767-1866-4D4A-9467-289ED9177851.jpeg" alt="JP, founder of JP.ReserveCo" width="1206" height="1608" loading="lazy">
+        </figure>
+        <div class="about-copy">
+          <p class="eyebrow">About JP</p>
+          <h2 class="section-title">A personal shopper,<br><em>not a warehouse.</em></h2>
+          <p>JP.ReserveCo began with a simple idea: buying luxury should feel personal. Every piece is handpicked, checked and dealt with by me, so you always know who you're talking to.</p>
+          <p>Whether you need a grail pair of trainers, the right bag for a gift, or want to sell something from your collection, I'll handle it with discretion and care.</p>
+          <p class="signature">— JP</p>
+          <a href="#" class="btn btn-ghost" data-wa="Hi JP, I'd like to have a chat about personal shopping.">Message JP on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Client reviews</p>
+          <h2 class="section-title">Trusted by our clients</h2>
+        </div>
+        <ul class="review-grid" id="review-grid"></ul>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-band">
+      <div class="container">
+        <h2>Looking for something specific?</h2>
+        <p>Message us now. Most requests get a reply the same day.</p>
+        <a href="#" class="btn btn-gold" data-wa="Hi JP, I'm looking for...">Start a conversation</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img class="footer-logo" src="Media/IMG_9218.jpeg" alt="JP.ReserveCo Personal Shopping" width="1206" height="1381" loading="lazy">
+      </div>
+      <div>
+        <h2 class="footer-head">Explore</h2>
+        <ul class="footer-links">
+          <li><a href="#stock">Latest Arrivals</a></li>
+          <li><a href="#sourcing">Sourcing Requests</a></li>
+          <li><a href="#sell">Sell Your Item</a></li>
+          <li><a href="#about">About JP</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-head">Contact</h2>
+        <ul class="footer-links" id="contact-links">
+          <li><a href="#" data-wa="Hi JP," target="_blank" rel="noopener">WhatsApp: <span id="wa-display"></span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-base">
+      <p>&copy; <span id="year"></span> JP.ReserveCo. All rights reserved. Based in the United Kingdom.</p>
+      <p class="disclaimer">JP.ReserveCo is an independent reseller and isn't affiliated with any of the brands shown. All trademarks belong to their owners.</p>
+    </div>
+  </footer>
+
+  <!-- QUICK VIEW — filled in by js/main.js when a product is tapped -->
+  <dialog class="quick-view" id="quick-view" aria-labelledby="qv-title">
+    <div class="qv-panel">
+      <button type="button" class="qv-close" aria-label="Close">
+        <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+      <div class="qv-media">
+        <img class="qv-img" src="" alt="">
+        <span class="qv-badge"></span>
+      </div>
+      <div class="qv-info">
+        <p class="qv-brand"></p>
+        <h2 class="qv-name" id="qv-title"></h2>
+        <p class="qv-price product-price"></p>
+        <dl class="qv-facts"></dl>
+        <p class="qv-details" hidden></p>
+        <div class="qv-actions">
+          <a class="btn btn-gold qv-cta" href="#" target="_blank" rel="noopener">Enquire on WhatsApp</a>
+          <span class="qv-wish"></span>
+        </div>
+        <p class="qv-note">
+          <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+          Authenticity guaranteed · Tracked UK delivery
+        </p>
+      </div>
+    </div>
+  </dialog>
+
+  <a class="wa-float" href="#" data-wa="Hi JP, I'd like to make an enquiry." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+  </a>
+
+  <!-- Bump the ?v= number after editing these files so returning visitors get the new version -->
+  <script src="js/data.js?v=27"></script>
+  <script src="js/main.js?v=27"></script>
+</body>
+</html>
