@@ -1,0 +1,2826 @@
+{
+ "updated": "2026-10-21T09:59:09.213Z",
+ "products": [
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 1 Low x Travis Scott Velvet Brown",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": "Brown",
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-1-low-x-travis-scott-velvet-brown.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 4": 575.95,
+    "UK 6": 690.95,
+    "UK 7": 483.95,
+    "UK 7.5": 483.95,
+    "UK 8": 506.95,
+    "UK 9": 529.95
+   },
+   "size": [
+    "UK 4",
+    "UK 6",
+    "UK 7",
+    "UK 7.5",
+    "UK 8",
+    "UK 9"
+   ],
+   "price": 483.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 1 Low OG x Travis Scott Olive",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Green",
+    "White"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-1-low-og-x-travis-scott-olive.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 6": 862.95,
+    "UK 7": 644.95,
+    "UK 7.5": 644.95,
+    "UK 8": 644.95,
+    "UK 9": 667.95,
+    "UK 9.5": 667.95,
+    "UK 10": 667.95,
+    "UK 11": 667.95
+   },
+   "size": [
+    "UK 6",
+    "UK 7",
+    "UK 7.5",
+    "UK 8",
+    "UK 9",
+    "UK 9.5",
+    "UK 10",
+    "UK 11"
+   ],
+   "price": 644.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 1 Low OG x Travis Scott Sail Tropical Pink",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Women",
+   "colour": [
+    "Pink",
+    "Red"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-1-low-og-x-travis-scott-sail-tropical-pink.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 7.5": 414.95,
+    "UK 8": 414.95,
+    "UK 8.5": 414.95,
+    "UK 9": 414.95,
+    "UK 9.5": 414.95,
+    "UK 10": 425.95,
+    "UK 11": 437.95
+   },
+   "size": [
+    "UK 7.5",
+    "UK 8",
+    "UK 8.5",
+    "UK 9",
+    "UK 9.5",
+    "UK 10",
+    "UK 11"
+   ],
+   "price": 414.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 1 Low OG x Travis Scott Sail Pink",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Women",
+   "colour": [
+    "Cream",
+    "Pink"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-1-low-og-x-travis-scott-sail-pink.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 7": 437.95,
+    "UK 8": 414.95,
+    "UK 9.5": 414.95,
+    "UK 10": 414.95,
+    "UK 11": 437.95
+   },
+   "size": [
+    "UK 7",
+    "UK 8",
+    "UK 9.5",
+    "UK 10",
+    "UK 11"
+   ],
+   "price": 414.95
+  },
+  {
+   "brand": "Vans",
+   "name": "Low Top White Distressed",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": "White",
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/vans-low-top-white-distressed.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 7": 155.95,
+    "UK 8": 155.95,
+    "UK 9": 155.95,
+    "UK 10": 155.95,
+    "UK 11": 155.95
+   },
+   "size": [
+    "UK 7",
+    "UK 8",
+    "UK 9",
+    "UK 10",
+    "UK 11"
+   ],
+   "price": 155.95
+  },
+  {
+   "brand": "Saucony",
+   "name": "ProGrid Omni 9 Black Silver",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Black",
+    "Silver"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/saucony-progrid-omni-9-black-silver.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 9.5": 155.95
+   },
+   "model": "ProGrid Omni 9",
+   "size": [
+    "UK 9.5"
+   ],
+   "price": 155.95
+  },
+  {
+   "brand": "Saucony",
+   "name": "ProGrid Omni 9 Silver Gold",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Silver",
+    "Gold"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/saucony-progrid-omni-9-silver-gold.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 8.5": 143.95
+   },
+   "model": "ProGrid Omni 9",
+   "size": [
+    "UK 8.5"
+   ],
+   "price": 143.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-Kayano 14 Cream Pure Silver",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Cream",
+    "Silver"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-kayano-14-cream-pure-silver.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 4.5": 166.95,
+    "UK 5.5": 166.95,
+    "UK 6": 172.95,
+    "UK 6.5": 172.95,
+    "UK 7": 172.95,
+    "UK 7.5": 172.95,
+    "UK 8": 172.95,
+    "UK 8.5": 172.95,
+    "UK 9": 172.95,
+    "UK 9.5": 178.95,
+    "UK 10": 178.95
+   },
+   "model": "Kayano 14",
+   "size": [
+    "UK 4.5",
+    "UK 5.5",
+    "UK 6",
+    "UK 6.5",
+    "UK 7",
+    "UK 7.5",
+    "UK 8",
+    "UK 8.5",
+    "UK 9",
+    "UK 9.5",
+    "UK 10"
+   ],
+   "price": 166.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-Kayano 14 White Steel Blue",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "White",
+    "Blue"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-kayano-14-white-steel-blue.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 5": 155.95,
+    "UK 5.5": 155.95,
+    "UK 6": 166.95,
+    "UK 8.5": 189.95,
+    "UK 9.5": 201.95
+   },
+   "model": "Kayano 14",
+   "size": [
+    "UK 5",
+    "UK 5.5",
+    "UK 6",
+    "UK 8.5",
+    "UK 9.5"
+   ],
+   "price": 155.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-Kayano 14 White Pink",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "White",
+    "Pink"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-kayano-14-white-pink.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 4": 166.95,
+    "UK 4.5": 166.95,
+    "UK 6.5": 166.95,
+    "UK 7": 166.95
+   },
+   "model": "Kayano 14",
+   "size": [
+    "UK 4",
+    "UK 4.5",
+    "UK 6.5",
+    "UK 7"
+   ],
+   "price": 166.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-Kayano 14 Cream Black",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Cream",
+    "Black"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-kayano-14-cream-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 7": 166.95,
+    "UK 7.5": 166.95,
+    "UK 8": 166.95,
+    "UK 8.5": 166.95,
+    "UK 9": 166.95
+   },
+   "model": "Kayano 14",
+   "size": [
+    "UK 7",
+    "UK 7.5",
+    "UK 8",
+    "UK 8.5",
+    "UK 9"
+   ],
+   "price": 166.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-Kayano 14 Black Pure Silver",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Black",
+    "Silver"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-kayano-14-black-pure-silver.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 11": 166.95
+   },
+   "model": "Kayano 14",
+   "size": [
+    "UK 11"
+   ],
+   "price": 166.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-Kayano 14 White Light Blue",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "White",
+    "Blue"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-kayano-14-white-light-blue.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 7": 166.95,
+    "UK 8.5": 166.95
+   },
+   "model": "Kayano 14",
+   "size": [
+    "UK 7",
+    "UK 8.5"
+   ],
+   "price": 166.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-Kayano 14 White Cloud Grey",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "White",
+    "Grey"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-kayano-14-white-cloud-grey.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 7.5": 166.95,
+    "UK 8": 166.95,
+    "UK 8.5": 166.95
+   },
+   "model": "Kayano 14",
+   "size": [
+    "UK 7.5",
+    "UK 8",
+    "UK 8.5"
+   ],
+   "price": 166.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-1130 Sharkskin",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "White",
+    "Blue"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-1130-sharkskin.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 6.5": 126.95,
+    "UK 7": 126.95,
+    "UK 7.5": 126.95
+   },
+   "model": "1130",
+   "size": [
+    "UK 6.5",
+    "UK 7",
+    "UK 7.5"
+   ],
+   "price": 126.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-1130 Black White Pure Silver",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Black",
+    "White",
+    "Silver"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-1130-black-white-pure-silver.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 8.5": 115.95,
+    "UK 9": 115.95,
+    "UK 9.5": 115.95,
+    "UK 10": 115.95
+   },
+   "model": "1130",
+   "size": [
+    "UK 8.5",
+    "UK 9",
+    "UK 9.5",
+    "UK 10"
+   ],
+   "price": 115.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-Kayano 14 Pure Silver Black",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Silver",
+    "Black"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-kayano-14-pure-silver-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 7": 178.95,
+    "UK 7.5": 178.95
+   },
+   "model": "Kayano 14",
+   "size": [
+    "UK 7",
+    "UK 7.5"
+   ],
+   "price": 178.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-1130 Grey Silver Cream",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Grey",
+    "Silver"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-1130-grey-silver-cream.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 7": 103.95,
+    "UK 7.5": 103.95,
+    "UK 8": 103.95,
+    "UK 8.5": 103.95,
+    "UK 9": 103.95,
+    "UK 9.5": 103.95,
+    "UK 10": 103.95
+   },
+   "model": "1130",
+   "size": [
+    "UK 7",
+    "UK 7.5",
+    "UK 8",
+    "UK 8.5",
+    "UK 9",
+    "UK 9.5",
+    "UK 10"
+   ],
+   "price": 103.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-1130 Graphite Grey Black",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Grey",
+    "Black"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-1130-graphite-grey-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 7": 138.95,
+    "UK 7.5": 138.95,
+    "UK 9.5": 138.95
+   },
+   "model": "1130",
+   "size": [
+    "UK 7",
+    "UK 7.5",
+    "UK 9.5"
+   ],
+   "price": 138.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-Kayano 14 Cream Grey",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Cream",
+    "Grey"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-kayano-14-cream-grey.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 4": 132.95,
+    "UK 4.5": 132.95,
+    "UK 6.5": 143.95,
+    "UK 7": 155.95,
+    "UK 7.5": 155.95
+   },
+   "model": "Kayano 14",
+   "size": [
+    "UK 4",
+    "UK 4.5",
+    "UK 6.5",
+    "UK 7",
+    "UK 7.5"
+   ],
+   "price": 132.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-Kayano 14 Dolphin Grey",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Grey",
+    "Blue",
+    "Silver"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-kayano-14-dolphin-grey.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 12": 155.95
+   },
+   "model": "Kayano 14",
+   "size": [
+    "UK 12"
+   ],
+   "price": 155.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-1130 White Clay Canyon",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "White",
+    "Brown"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-1130-white-clay-canyon.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 8.5": 74.95
+   },
+   "model": "1130",
+   "size": [
+    "UK 8.5"
+   ],
+   "price": 74.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-1130 White Blue",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "White",
+    "Blue"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-1130-white-blue.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 3.5": 109.95
+   },
+   "model": "1130",
+   "size": [
+    "UK 3.5"
+   ],
+   "price": 109.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-1130 Steel Grey Silver",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Grey",
+    "Silver"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-1130-steel-grey-silver.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 7.5": 103.95,
+    "UK 8": 103.95,
+    "UK 8.5": 103.95
+   },
+   "model": "1130",
+   "size": [
+    "UK 7.5",
+    "UK 8",
+    "UK 8.5"
+   ],
+   "price": 103.95
+  },
+  {
+   "brand": "Asics",
+   "name": "Gel-Kayano 14 Cream Steel Blue",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Cream",
+    "Blue"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/asics-gel-kayano-14-cream-steel-blue.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 6.5": 143.95,
+    "UK 7": 143.95
+   },
+   "model": "Kayano 14",
+   "size": [
+    "UK 6.5",
+    "UK 7"
+   ],
+   "price": 143.95
+  },
+  {
+   "brand": "Nike",
+   "name": "Air Force 1 Low Black Patent Grey",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Black",
+    "Grey"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/nike-air-force-1-low-black-patent-grey.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 9": 241.95,
+    "UK 10": 241.95,
+    "UK 11": 241.95
+   },
+   "model": "Air Force",
+   "size": [
+    "UK 9",
+    "UK 10",
+    "UK 11"
+   ],
+   "price": 241.95
+  },
+  {
+   "brand": "Nike",
+   "name": "Air Force 1 Low Green Camo Pink",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Green",
+    "Pink"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/nike-air-force-1-low-green-camo-pink.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 8.5": 143.95
+   },
+   "model": "Air Force",
+   "size": [
+    "UK 8.5"
+   ],
+   "price": 143.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 5 Retro Cool Grey",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": "Grey",
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-5-retro-cool-grey.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 7.5": 276.95,
+    "UK 8": 264.95,
+    "UK 8.5": 264.95,
+    "UK 9": 264.95,
+    "UK 12": 287.95
+   },
+   "size": [
+    "UK 7.5",
+    "UK 8",
+    "UK 8.5",
+    "UK 9",
+    "UK 12"
+   ],
+   "price": 264.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 4 Retro Black Cat",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-4-retro-black-cat.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 9": 281.95,
+    "UK 9.5": 281.95
+   },
+   "size": [
+    "UK 9",
+    "UK 9.5"
+   ],
+   "price": 281.95
+  },
+  {
+   "brand": "Nike",
+   "name": "P-6000 Flat Pewter",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Silver",
+    "Grey"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/nike-p-6000-flat-pewter.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 6": 97.95,
+    "UK 6.5": 97.95,
+    "UK 7": 97.95,
+    "UK 8": 97.95,
+    "UK 8.5": 97.95,
+    "UK 9": 109.95,
+    "UK 9.5": 109.95
+   },
+   "model": "P6000",
+   "size": [
+    "UK 6",
+    "UK 6.5",
+    "UK 7",
+    "UK 8",
+    "UK 8.5",
+    "UK 9",
+    "UK 9.5"
+   ],
+   "price": 97.95
+  },
+  {
+   "brand": "Nike",
+   "name": "Air Force 1 Low x Supreme White",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": "White",
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/nike-air-force-1-low-x-supreme-white.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 10.5": 161.95,
+    "UK 11": 161.95
+   },
+   "model": "Air Force",
+   "size": [
+    "UK 10.5",
+    "UK 11"
+   ],
+   "price": 161.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 11 Retro Gamma Blue",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Black",
+    "Blue"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-11-retro-gamma-blue.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 6": 230.95
+   },
+   "size": [
+    "UK 6"
+   ],
+   "price": 230.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 4 Retro Cool Grey",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": "Grey",
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-4-retro-cool-grey.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 7": 299.95
+   },
+   "size": [
+    "UK 7"
+   ],
+   "price": 299.95
+  },
+  {
+   "brand": "Nike",
+   "name": "P-6000 Black Blue",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Black",
+    "Blue"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/nike-p-6000-black-blue.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 6": 86.95,
+    "UK 7.5": 97.95
+   },
+   "model": "P6000",
+   "size": [
+    "UK 6",
+    "UK 7.5"
+   ],
+   "price": 86.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 4 Retro Bred Reimagined",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Black",
+    "Red"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-4-retro-bred-reimagined.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 4.5": 103.95,
+    "UK 5": 103.95,
+    "UK 7.5": 287.95
+   },
+   "size": [
+    "UK 4.5",
+    "UK 5",
+    "UK 7.5"
+   ],
+   "price": 103.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 4 Retro University Blue",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": "Blue",
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-4-retro-university-blue.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 12": 322.95
+   },
+   "size": [
+    "UK 12"
+   ],
+   "price": 322.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 4 Retro Motorsport",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "White",
+    "Blue"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-4-retro-motorsport.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 10": 322.95
+   },
+   "size": [
+    "UK 10"
+   ],
+   "price": 322.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 4 Retro Infrared",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Grey",
+    "Black",
+    "Red"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-4-retro-infrared.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 4.5": 138.95,
+    "UK 7.5": 218.95
+   },
+   "size": [
+    "UK 4.5",
+    "UK 7.5"
+   ],
+   "price": 138.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 4 Retro Military Blue",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "White",
+    "Blue"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-4-retro-military-blue.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 4.5": 138.95,
+    "UK 8.5": 218.95
+   },
+   "size": [
+    "UK 4.5",
+    "UK 8.5"
+   ],
+   "price": 138.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 4 x Off-White Sail",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Women",
+   "colour": "Cream",
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-4-x-off-white-sail.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 7": 805.95
+   },
+   "size": [
+    "UK 7"
+   ],
+   "price": 805.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 11 Retro Bred",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Black",
+    "Red"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-11-retro-bred.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 9.5": 276.95
+   },
+   "size": [
+    "UK 9.5"
+   ],
+   "price": 276.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 4 Retro White Grey",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "White",
+    "Grey"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-4-retro-white-grey.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 6": 120.95
+   },
+   "size": [
+    "UK 6"
+   ],
+   "price": 120.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 5 Retro Fire Red",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "White",
+    "Red"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-5-retro-fire-red.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 6": 115.95
+   },
+   "size": [
+    "UK 6"
+   ],
+   "price": 115.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 4 Retro Taupe Haze",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Grey",
+    "Brown"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-4-retro-taupe-haze.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 4": 115.95
+   },
+   "size": [
+    "UK 4"
+   ],
+   "price": 115.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 5 Retro Bluebird",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Women",
+   "colour": "Blue",
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-5-retro-bluebird.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 4": 161.95
+   },
+   "size": [
+    "UK 4"
+   ],
+   "price": 161.95
+  },
+  {
+   "brand": "Jordan",
+   "name": "Air Jordan 4 Retro Fear",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": [
+    "Black",
+    "Grey"
+   ],
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/jordan-air-jordan-4-retro-fear.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 3.5": 120.95,
+    "UK 4": 120.95
+   },
+   "size": [
+    "UK 3.5",
+    "UK 4"
+   ],
+   "price": 120.95
+  },
+  {
+   "brand": "Nike",
+   "name": "Air Force 1 Low x Off-White Volt",
+   "category": "footwear",
+   "type": "Trainers",
+   "gender": "Unisex",
+   "colour": "Yellow",
+   "condition": "New with box",
+   "details": "Brand new in box and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/nike-air-force-1-low-x-off-white-volt.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "UK 9.5": 460.95
+   },
+   "model": "Air Force",
+   "size": [
+    "UK 9.5"
+   ],
+   "price": 460.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "1997 Bulldog Tee Blue",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Blue",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-1997-bulldog-tee-blue.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 126.95,
+    "M": 126.95
+   },
+   "size": [
+    "S",
+    "M"
+   ],
+   "price": 126.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "Grin Tee Washed Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-grin-tee-washed-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 126.95,
+    "M": 126.95
+   },
+   "size": [
+    "S",
+    "M"
+   ],
+   "price": 126.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "Logo Graphic Tee Washed Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-logo-graphic-tee-washed-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 126.95
+   },
+   "size": [
+    "S"
+   ],
+   "price": 126.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "VALE Layered Long Sleeve Tee Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": [
+    "Black",
+    "White"
+   ],
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-vale-layered-long-sleeve-tee-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "L": 143.95
+   },
+   "size": [
+    "L"
+   ],
+   "price": 143.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "The Dream Tee Washed Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-the-dream-tee-washed-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 126.95
+   },
+   "size": [
+    "S"
+   ],
+   "price": 126.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "Star Tee Washed Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-star-tee-washed-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "M": 126.95
+   },
+   "size": [
+    "M"
+   ],
+   "price": 126.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "Lives Forever Polo Black",
+   "category": "clothing",
+   "type": "Polos",
+   "gender": "Unisex",
+   "colour": [
+    "Black",
+    "White"
+   ],
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-lives-forever-polo-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 126.95,
+    "XL": 126.95
+   },
+   "size": [
+    "S",
+    "XL"
+   ],
+   "price": 126.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "Manhattan Athletic Tee Washed Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-manhattan-athletic-tee-washed-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 126.95,
+    "M": 126.95,
+    "L": 126.95
+   },
+   "size": [
+    "S",
+    "M",
+    "L"
+   ],
+   "price": 126.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "14 Patchwork Tee Multi",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Multi",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-14-patchwork-tee-multi.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 138.95,
+    "M": 138.95
+   },
+   "size": [
+    "S",
+    "M"
+   ],
+   "price": 138.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "Vale Sport Long Sleeve Tee Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-vale-sport-long-sleeve-tee-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "XL": 143.95
+   },
+   "size": [
+    "XL"
+   ],
+   "price": 143.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "Logo Long Sleeve Tee White",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "White",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-logo-long-sleeve-tee-white.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 138.95,
+    "M": 138.95,
+    "L": 138.95,
+    "XL": 138.95
+   },
+   "size": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "price": 138.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "14 Ringer Tee Black Red",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": [
+    "Black",
+    "Red"
+   ],
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-14-ringer-tee-black-red.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 126.95,
+    "L": 126.95
+   },
+   "size": [
+    "S",
+    "L"
+   ],
+   "price": 126.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "Rhinestone Denim Shorts",
+   "category": "clothing",
+   "type": "Shorts",
+   "gender": "Unisex",
+   "colour": "Blue",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-rhinestone-denim-shorts.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "W30": 218.95,
+    "W36": 218.95
+   },
+   "size": [
+    "W30",
+    "W36"
+   ],
+   "price": 218.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "Don't Do Drugs Tee Pink",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Pink",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-don-t-do-drugs-tee-pink.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "L": 126.95,
+    "XL": 126.95
+   },
+   "size": [
+    "L",
+    "XL"
+   ],
+   "price": 126.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "Don't Do Drugs Tee White",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "White",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-don-t-do-drugs-tee-white.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "L": 126.95
+   },
+   "size": [
+    "L"
+   ],
+   "price": 126.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "Chain Graphic Vest White",
+   "category": "clothing",
+   "type": "Vests",
+   "gender": "Unisex",
+   "colour": "White",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-chain-graphic-vest-white.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 69.95,
+    "M": 69.95,
+    "L": 69.95,
+    "XXL": 69.95
+   },
+   "size": [
+    "S",
+    "M",
+    "L",
+    "XXL"
+   ],
+   "price": 69.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "Ribbed Logo Vest Black",
+   "category": "clothing",
+   "type": "Vests",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-ribbed-logo-vest-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 69.95,
+    "M": 69.95,
+    "L": 69.95,
+    "XL": 69.95
+   },
+   "size": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "price": 69.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "Valemore Ribbed Crop Vest White",
+   "category": "clothing",
+   "type": "Vests",
+   "gender": "Women",
+   "colour": "White",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-valemore-ribbed-crop-vest-white.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "XS": 74.95,
+    "S": 74.95,
+    "M": 74.95,
+    "L": 74.95
+   },
+   "size": [
+    "XS",
+    "S",
+    "M",
+    "L"
+   ],
+   "price": 74.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "Valemore Ribbed Crop Vest Pink",
+   "category": "clothing",
+   "type": "Vests",
+   "gender": "Women",
+   "colour": "Pink",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-valemore-ribbed-crop-vest-pink.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "XS": 74.95,
+    "S": 74.95
+   },
+   "size": [
+    "XS",
+    "S"
+   ],
+   "price": 74.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "Valemore Ribbed Crop Vest Black",
+   "category": "clothing",
+   "type": "Vests",
+   "gender": "Women",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-valemore-ribbed-crop-vest-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "XS": 74.95,
+    "S": 74.95
+   },
+   "size": [
+    "XS",
+    "S"
+   ],
+   "price": 74.95
+  },
+  {
+   "brand": "Valley Dreams",
+   "name": "Valemore Sport Classic Tee Lilac",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Purple",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/valley-dreams-valemore-sport-classic-tee-lilac.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 80.95,
+    "M": 80.95,
+    "L": 80.95
+   },
+   "size": [
+    "S",
+    "M",
+    "L"
+   ],
+   "price": 80.95
+  },
+  {
+   "brand": "Kith",
+   "name": "Coastal Vintage Tee Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/kith-coastal-vintage-tee-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "L": 138.95
+   },
+   "size": [
+    "L"
+   ],
+   "price": 138.95
+  },
+  {
+   "brand": "Kith",
+   "name": "Pegasus Vintage Tee Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/kith-pegasus-vintage-tee-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "L": 138.95
+   },
+   "size": [
+    "L"
+   ],
+   "price": 138.95
+  },
+  {
+   "brand": "Kith",
+   "name": "Coastal Tee White",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "White",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/kith-coastal-tee-white.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "L": 138.95
+   },
+   "size": [
+    "L"
+   ],
+   "price": 138.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "88 Long Sleeve Football Top Brown",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": [
+    "Brown",
+    "Yellow"
+   ],
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-88-long-sleeve-football-top-brown.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "XL": 276.95
+   },
+   "size": [
+    "XL"
+   ],
+   "price": 276.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "88 Long Sleeve Football Top Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-88-long-sleeve-football-top-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "L": 230.95,
+    "XL": 230.95
+   },
+   "size": [
+    "L",
+    "XL"
+   ],
+   "price": 230.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "39 Bandana Football Jersey Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-39-bandana-football-jersey-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 218.95,
+    "M": 218.95
+   },
+   "size": [
+    "S",
+    "M"
+   ],
+   "price": 218.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "63 Bones Football Jersey Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-63-bones-football-jersey-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "L": 218.95
+   },
+   "size": [
+    "L"
+   ],
+   "price": 218.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "39 Football Jersey Light Blue",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": [
+    "Blue",
+    "Yellow"
+   ],
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-39-football-jersey-light-blue.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 218.95
+   },
+   "size": [
+    "S"
+   ],
+   "price": 218.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "39 Bandana Football Jersey White",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": [
+    "White",
+    "Red"
+   ],
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-39-bandana-football-jersey-white.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "XL": 207.95
+   },
+   "size": [
+    "XL"
+   ],
+   "price": 207.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "63 Bones Football Jersey Red",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Red",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-63-bones-football-jersey-red.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "XXL": 207.95
+   },
+   "size": [
+    "XXL"
+   ],
+   "price": 207.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "25 Realtree Football Jersey Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-25-realtree-football-jersey-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "L": 218.95
+   },
+   "size": [
+    "L"
+   ],
+   "price": 218.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "25 Realtree Football Jersey Green",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Green",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-25-realtree-football-jersey-green.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "M": 218.95
+   },
+   "size": [
+    "M"
+   ],
+   "price": 218.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "10 Long Sleeve Football Top Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": [
+    "Black",
+    "Purple"
+   ],
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-10-long-sleeve-football-top-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "M": 276.95,
+    "L": 276.95,
+    "XL": 276.95
+   },
+   "size": [
+    "M",
+    "L",
+    "XL"
+   ],
+   "price": 276.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Double Knee Denim Painter Shorts Light Blue",
+   "category": "clothing",
+   "type": "Shorts",
+   "gender": "Unisex",
+   "colour": "Blue",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-double-knee-denim-painter-shorts-light-blue.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "W30": 322.95,
+    "W32": 322.95
+   },
+   "size": [
+    "W30",
+    "W32"
+   ],
+   "price": 322.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Logo Print Painter Shorts Brown",
+   "category": "clothing",
+   "type": "Shorts",
+   "gender": "Unisex",
+   "colour": "Brown",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-logo-print-painter-shorts-brown.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "W32": 322.95
+   },
+   "size": [
+    "W32"
+   ],
+   "price": 322.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Script Football Jersey White",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "White",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-script-football-jersey-white.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "L": 207.95
+   },
+   "size": [
+    "L"
+   ],
+   "price": 207.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Big Logo Oversized Tee Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-big-logo-oversized-tee-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "L": 138.95
+   },
+   "size": [
+    "L"
+   ],
+   "price": 138.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "10 Long Sleeve Football Top Grey",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": [
+    "Grey",
+    "Red"
+   ],
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-10-long-sleeve-football-top-grey.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "XL": 201.95
+   },
+   "size": [
+    "XL"
+   ],
+   "price": 201.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "10 Long Sleeve Football Top Orange",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": [
+    "Orange",
+    "Green"
+   ],
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-10-long-sleeve-football-top-orange.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "L": 184.95
+   },
+   "size": [
+    "L"
+   ],
+   "price": 184.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "94 Football Jersey Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-94-football-jersey-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "XXL": 207.95
+   },
+   "size": [
+    "XXL"
+   ],
+   "price": 207.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Arc Logo Tee Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-arc-logo-tee-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 126.95
+   },
+   "size": [
+    "S"
+   ],
+   "price": 126.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Screwed Up Click Zip Up Hoodie Black",
+   "category": "clothing",
+   "type": "Hoodies",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-screwed-up-click-zip-up-hoodie-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "L": 322.95
+   },
+   "size": [
+    "L"
+   ],
+   "price": 322.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Screwed Up Click Zip Up Hoodie Brown",
+   "category": "clothing",
+   "type": "Hoodies",
+   "gender": "Unisex",
+   "colour": "Brown",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-screwed-up-click-zip-up-hoodie-brown.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 322.95
+   },
+   "size": [
+    "S"
+   ],
+   "price": 322.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Screwed Up Click Zip Up Hoodie Royal Blue",
+   "category": "clothing",
+   "type": "Hoodies",
+   "gender": "Unisex",
+   "colour": "Blue",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-screwed-up-click-zip-up-hoodie-royal-blue.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "M": 322.95
+   },
+   "size": [
+    "M"
+   ],
+   "price": 322.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Screwed Up Click Hoodie and Shorts Set Black",
+   "category": "clothing",
+   "type": "Hoodies",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-screwed-up-click-hoodie-and-shorts-set-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 598.95
+   },
+   "set": true,
+   "size": [
+    "S"
+   ],
+   "price": 598.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Racing Sponsors Tee Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-racing-sponsors-tee-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 126.95
+   },
+   "size": [
+    "S"
+   ],
+   "price": 126.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "x The North Face Tee and Shorts Set Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-x-the-north-face-tee-and-shorts-set-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 253.95
+   },
+   "set": true,
+   "size": [
+    "S"
+   ],
+   "price": 253.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Arc Logo Tee and Cargo Shorts Set Pink",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Pink",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-arc-logo-tee-and-cargo-shorts-set-pink.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 253.95
+   },
+   "set": true,
+   "size": [
+    "S"
+   ],
+   "price": 253.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Shop Tee Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-shop-tee-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 103.95
+   },
+   "size": [
+    "S"
+   ],
+   "price": 103.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Shop Tee White",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "White",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-shop-tee-white.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 103.95
+   },
+   "size": [
+    "S"
+   ],
+   "price": 103.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Classic Logo Tee Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-classic-logo-tee-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 97.95
+   },
+   "size": [
+    "S"
+   ],
+   "price": 97.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Motion Logo Tee Red",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Red",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-motion-logo-tee-red.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "XL": 86.95
+   },
+   "size": [
+    "XL"
+   ],
+   "price": 86.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Photo Tee Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-photo-tee-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 97.95
+   },
+   "size": [
+    "S"
+   ],
+   "price": 97.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Flowers Logo Tee Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-flowers-logo-tee-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 97.95,
+    "XL": 97.95
+   },
+   "size": [
+    "S",
+    "XL"
+   ],
+   "price": 97.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Motion Logo Tee Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-motion-logo-tee-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 92.95
+   },
+   "size": [
+    "S"
+   ],
+   "price": 92.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Sunset Tee Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-sunset-tee-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "M": 86.95
+   },
+   "size": [
+    "M"
+   ],
+   "price": 86.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Box Logo Tee Heather Grey",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Grey",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-box-logo-tee-heather-grey.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 115.95,
+    "XL": 115.95
+   },
+   "size": [
+    "S",
+    "XL"
+   ],
+   "price": 115.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "New York Oval Tee Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-new-york-oval-tee-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "L": 92.95,
+    "XL": 92.95
+   },
+   "size": [
+    "L",
+    "XL"
+   ],
+   "price": 92.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "New York Oval Tee Olive",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Green",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-new-york-oval-tee-olive.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "M": 80.95
+   },
+   "size": [
+    "M"
+   ],
+   "price": 80.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Explosion Graphic Tee Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-explosion-graphic-tee-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "M": 80.95
+   },
+   "size": [
+    "M"
+   ],
+   "price": 80.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Hands Graphic Tee Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/supreme-hands-graphic-tee-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 103.95
+   },
+   "size": [
+    "S"
+   ],
+   "price": 103.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Big Logo Beanie",
+   "category": "accessories",
+   "type": "Hats",
+   "gender": "Unisex",
+   "colour": [
+    "Brown",
+    "Red",
+    "Blue",
+    "Purple"
+   ],
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The colours shown are available to order now.",
+   "image": "Media/wholesale/supreme-big-logo-beanie.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "Brown": 74.95,
+    "Red": 69.95,
+    "Blue": 69.95,
+    "Purple": 69.95
+   },
+   "option": "Colour",
+   "size": [
+    "Brown",
+    "Red",
+    "Blue",
+    "Purple"
+   ],
+   "price": 69.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Big Logo Beanie Camo",
+   "category": "accessories",
+   "type": "Hats",
+   "gender": "Unisex",
+   "colour": [
+    "Green",
+    "Grey"
+   ],
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The colours shown are available to order now.",
+   "image": "Media/wholesale/supreme-big-logo-beanie-camo.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "Camo Green": 74.95,
+    "Camo Grey": 74.95
+   },
+   "option": "Colour",
+   "size": [
+    "Camo Green",
+    "Camo Grey"
+   ],
+   "price": 74.95
+  },
+  {
+   "brand": "Supreme",
+   "name": "Box Logo Balaclava",
+   "category": "accessories",
+   "type": "Hats",
+   "gender": "Unisex",
+   "colour": [
+    "Red",
+    "Blue"
+   ],
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The colours shown are available to order now.",
+   "image": "Media/wholesale/supreme-box-logo-balaclava.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "Red": 92.95,
+    "Blue": 92.95
+   },
+   "option": "Colour",
+   "size": [
+    "Red",
+    "Blue"
+   ],
+   "price": 92.95
+  },
+  {
+   "brand": "Denim Tears",
+   "name": "Cotton Wreath Sweatshirt Navy",
+   "category": "clothing",
+   "type": "Sweatshirts",
+   "gender": "Unisex",
+   "colour": [
+    "Navy",
+    "White"
+   ],
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/denim-tears-cotton-wreath-sweatshirt-navy.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "L": 115.95
+   },
+   "size": [
+    "L"
+   ],
+   "price": 115.95
+  },
+  {
+   "brand": "Denim Tears",
+   "name": "Cotton Wreath Sweatshirt Green",
+   "category": "clothing",
+   "type": "Sweatshirts",
+   "gender": "Unisex",
+   "colour": [
+    "Green",
+    "White"
+   ],
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/denim-tears-cotton-wreath-sweatshirt-green.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "M": 115.95
+   },
+   "size": [
+    "M"
+   ],
+   "price": 115.95
+  },
+  {
+   "brand": "Fear of God",
+   "name": "Essentials 1977 Tee and Shorts Set Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/fear-of-god-essentials-1977-tee-and-shorts-set-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "XS": 218.95,
+    "S": 218.95,
+    "M": 218.95,
+    "L": 218.95,
+    "XL": 218.95
+   },
+   "set": true,
+   "size": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "price": 218.95
+  },
+  {
+   "brand": "Fear of God",
+   "name": "Essentials x NBA Tee and Shorts Set Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/fear-of-god-essentials-x-nba-tee-and-shorts-set-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "XS": 195.95,
+    "S": 195.95,
+    "M": 195.95,
+    "L": 195.95,
+    "XL": 195.95
+   },
+   "set": true,
+   "size": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "price": 195.95
+  },
+  {
+   "brand": "Fear of God",
+   "name": "Essentials Tee and Shorts Set Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/fear-of-god-essentials-tee-and-shorts-set-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "XS": 195.95,
+    "S": 195.95,
+    "M": 195.95,
+    "L": 195.95,
+    "XL": 195.95
+   },
+   "set": true,
+   "size": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "price": 195.95
+  },
+  {
+   "brand": "Fear of God",
+   "name": "Essentials Arch Logo Tee and Shorts Set Jet Black",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/fear-of-god-essentials-arch-logo-tee-and-shorts-set-jet-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "XS": 195.95,
+    "S": 195.95,
+    "M": 195.95,
+    "L": 195.95,
+    "XL": 195.95
+   },
+   "set": true,
+   "size": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "price": 195.95
+  },
+  {
+   "brand": "Fear of God",
+   "name": "Essentials Tee and Shorts Set Light Oatmeal",
+   "category": "clothing",
+   "type": "T-Shirts",
+   "gender": "Unisex",
+   "colour": "Beige",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/fear-of-god-essentials-tee-and-shorts-set-light-oatmeal.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "L": 207.95
+   },
+   "set": true,
+   "size": [
+    "L"
+   ],
+   "price": 207.95
+  },
+  {
+   "brand": "Fear of God",
+   "name": "Essentials Hoodie and Sweatpants Set Light Heather Grey",
+   "category": "clothing",
+   "type": "Tracksuits",
+   "gender": "Unisex",
+   "colour": "Grey",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/fear-of-god-essentials-hoodie-and-sweatpants-set-light-heather-grey.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "XS": 276.95,
+    "L": 276.95,
+    "XL": 276.95
+   },
+   "set": true,
+   "size": [
+    "XS",
+    "L",
+    "XL"
+   ],
+   "price": 276.95
+  },
+  {
+   "brand": "Fear of God",
+   "name": "Essentials Hoodie and Sweatpants Set Black",
+   "category": "clothing",
+   "type": "Tracksuits",
+   "gender": "Unisex",
+   "colour": "Black",
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/fear-of-god-essentials-hoodie-and-sweatpants-set-black.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "S": 276.95,
+    "L": 276.95,
+    "XL": 276.95
+   },
+   "set": true,
+   "size": [
+    "S",
+    "L",
+    "XL"
+   ],
+   "price": 276.95
+  },
+  {
+   "brand": "Fear of God",
+   "name": "Essentials Hoodie and Sweatpants Set Dark Oatmeal",
+   "category": "clothing",
+   "type": "Tracksuits",
+   "gender": "Unisex",
+   "colour": [
+    "Grey",
+    "Beige"
+   ],
+   "condition": "New with tags",
+   "details": "Brand new and 100% authentic. The sizes shown are available to order now.",
+   "image": "Media/wholesale/fear-of-god-essentials-hoodie-and-sweatpants-set-dark-oatmeal.webp",
+   "fit": "framed",
+   "sizePrices": {
+    "XS": 276.95,
+    "S": 276.95,
+    "L": 276.95
+   },
+   "set": true,
+   "size": [
+    "XS",
+    "S",
+    "L"
+   ],
+   "price": 276.95
+  }
+ ]
+}

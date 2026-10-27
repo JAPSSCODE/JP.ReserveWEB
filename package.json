@@ -1,0 +1,13 @@
+{
+  "name": "jp-reserveco-website",
+  "private": true,
+  "description": "Tools for the JP.ReserveCo website (the site itself needs no build step).",
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync-suppliers.mjs"
+  },
+  "dependencies": {
+    "onnxruntime-node": "^1.30.0",
+    "sharp": "^0.34.1"
+  }
+}

@@ -1,0 +1,84 @@
+# Publishes the website to GitHub Pages, with supplier stock refreshed every hour.
+#
+# Runs: every hour, whenever the site is pushed to main, and on demand (Actions tab → Run workflow).
+# Each run fetches the suppliers' current stock (scripts/sync-suppliers.mjs), adds the markup and
+# publishes the site with it. If a supplier can't be reached, the run stops and the last published
+# version stays live, so items are never removed by mistake.
+#
+# One-time setup on GitHub (see docs/supplier-sync-guide.md):
+#   Settings → Pages → Source: "GitHub Actions"
+#   Settings → Secrets and variables → Actions → New repository secret:
+#     SUPPLIER_URLS = the supplier links, one per line
+
+name: Sync stock and publish site
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 * * * *" # every hour at :17 (avoids the busy top of the hour)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150 # the very first run cleans every photo; later runs take a few minutes
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install photo tools
+        run: npm ci --no-audit --no-fund
+
+      # Background-removal model (~170 MB): downloaded once, then kept
+      - name: Restore background-removal model
+        uses: actions/cache@v4
+        with:
+          path: scripts/models
+          key: bg-model-isnet-general-use-v1
+
+      # Finished photos, so each one is only cleaned once (the first run takes a while)
+      - name: Restore processed photos
+        uses: actions/cache@v4
+        with:
+          path: .cache/photos
+          key: photos-${{ github.run_id }}
+          restore-keys: photos-
+
+      - name: Sync supplier stock (+15%) and frame photos
+        env:
+          SUPPLIER_URLS: ${{ secrets.SUPPLIER_URLS }}
+          MARKUP: "0.15"
+        run: node scripts/sync-suppliers.mjs
+
+      - name: Prepare site files
+        run: |
+          mkdir _site
+          rsync -a --exclude '.git' --exclude '.github' --exclude '_site' \
+                   --exclude 'scripts' --exclude 'tools' --exclude 'docs' --exclude '.claude' \
+                   --exclude 'node_modules' --exclude 'package.json' --exclude 'package-lock.json' --exclude '.cache' ./ _site/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

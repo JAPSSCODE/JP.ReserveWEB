@@ -2,7 +2,16 @@
 .claude/
 .vscode/
 
+# Supplier links and the stock built from them stay private (the GitHub workflow rebuilds it on deploy)
+scripts/suppliers.local.txt
+js/supplier-stock.json
+Media/supplier/
+node_modules/
+
 # OS clutter
 Thumbs.db
 desktop.ini
 .DS_Store
+# Background-removal model (downloaded automatically) and the processed-photo cache
+scripts/models/
+.cache/

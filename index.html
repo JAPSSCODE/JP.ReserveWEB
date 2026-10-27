@@ -6,11 +6,26 @@
   <title>JP.ReserveCo | Luxury Personal Shopping UK</title>
   <meta name="description" content="JP.ReserveCo is a UK luxury personal shopping service. Authenticated designer bags, footwear and clothing, sourced to order, plus a simple way to sell your pre-owned luxury items.">
   <meta name="theme-color" content="#0a0a0a">
-  <link rel="icon" href="Media/web/IMG_9218.jpg">
+  <!-- Link preview (WhatsApp, Instagram, iMessage, Facebook, X). Uses the live address, so update
+       SITE_URL here and in the other pages if you move to your own domain. -->
+  <link rel="canonical" href="https://japsscode.github.io/JP.ReserveWEB/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="JP.ReserveCo">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:url" content="https://japsscode.github.io/JP.ReserveWEB/">
+  <meta property="og:title" content="JP.ReserveCo | Luxury, sourced for you">
+  <meta property="og:description" content="Authentic designer bags, footwear and clothing, sourced to order and delivered across the UK. Message us on WhatsApp.">
+  <meta property="og:image" content="https://japsscode.github.io/JP.ReserveWEB/Media/web/share-preview.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="JP.ReserveCo logo beside Louis Vuitton luggage">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" sizes="64x64" href="Media/web/icon-64.png">
+  <link rel="apple-touch-icon" href="Media/web/icon-180.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css?v=62">
+  <link rel="stylesheet" href="css/styles.css?v=111">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -18,35 +33,43 @@
   <!-- Scrolling announcement bar. Edit the messages in BOTH groups below (they must match so the loop is seamless).
        Screen readers and reduced-motion visitors get the static line instead. -->
   <div class="announce">
-    <p class="announce-static">100% authenticity guaranteed <span aria-hidden="true">·</span> UK tracked delivery <span aria-hidden="true">·</span> Items sourced on request</p>
+    <p class="announce-static">100% authenticity guaranteed <span aria-hidden="true">·</span> UK tracked delivery <span aria-hidden="true">·</span> Live stock, updated hourly <span aria-hidden="true">·</span> Items sourced on request</p>
     <button type="button" class="announce-ticker" id="announce-ticker" aria-pressed="false" aria-label="Pause scrolling banner">
       <span class="announce-track" aria-hidden="true">
         <span class="announce-group">
           <span>100% Authenticity Guaranteed</span><span class="announce-dot">◆</span>
           <span>UK Tracked Delivery</span><span class="announce-dot">◆</span>
+          <span class="announce-live"><i class="live-dot"></i>Live Stock, Updated Hourly</span><span class="announce-dot">◆</span>
           <span>Items Sourced On Request</span><span class="announce-dot">◆</span>
           <span>100% Authenticity Guaranteed</span><span class="announce-dot">◆</span>
           <span>UK Tracked Delivery</span><span class="announce-dot">◆</span>
+          <span class="announce-live"><i class="live-dot"></i>Live Stock, Updated Hourly</span><span class="announce-dot">◆</span>
           <span>Items Sourced On Request</span><span class="announce-dot">◆</span>
           <span>100% Authenticity Guaranteed</span><span class="announce-dot">◆</span>
           <span>UK Tracked Delivery</span><span class="announce-dot">◆</span>
+          <span class="announce-live"><i class="live-dot"></i>Live Stock, Updated Hourly</span><span class="announce-dot">◆</span>
           <span>Items Sourced On Request</span><span class="announce-dot">◆</span>
           <span>100% Authenticity Guaranteed</span><span class="announce-dot">◆</span>
           <span>UK Tracked Delivery</span><span class="announce-dot">◆</span>
+          <span class="announce-live"><i class="live-dot"></i>Live Stock, Updated Hourly</span><span class="announce-dot">◆</span>
           <span>Items Sourced On Request</span><span class="announce-dot">◆</span>
         </span>
         <span class="announce-group">
           <span>100% Authenticity Guaranteed</span><span class="announce-dot">◆</span>
           <span>UK Tracked Delivery</span><span class="announce-dot">◆</span>
+          <span class="announce-live"><i class="live-dot"></i>Live Stock, Updated Hourly</span><span class="announce-dot">◆</span>
           <span>Items Sourced On Request</span><span class="announce-dot">◆</span>
           <span>100% Authenticity Guaranteed</span><span class="announce-dot">◆</span>
           <span>UK Tracked Delivery</span><span class="announce-dot">◆</span>
+          <span class="announce-live"><i class="live-dot"></i>Live Stock, Updated Hourly</span><span class="announce-dot">◆</span>
           <span>Items Sourced On Request</span><span class="announce-dot">◆</span>
           <span>100% Authenticity Guaranteed</span><span class="announce-dot">◆</span>
           <span>UK Tracked Delivery</span><span class="announce-dot">◆</span>
+          <span class="announce-live"><i class="live-dot"></i>Live Stock, Updated Hourly</span><span class="announce-dot">◆</span>
           <span>Items Sourced On Request</span><span class="announce-dot">◆</span>
           <span>100% Authenticity Guaranteed</span><span class="announce-dot">◆</span>
           <span>UK Tracked Delivery</span><span class="announce-dot">◆</span>
+          <span class="announce-live"><i class="live-dot"></i>Live Stock, Updated Hourly</span><span class="announce-dot">◆</span>
           <span>Items Sourced On Request</span><span class="announce-dot">◆</span>
         </span>
       </span>
@@ -110,6 +133,27 @@
           </li>
         </ul>
       </nav>
+
+      <!-- Search: a bar on larger screens; on phones the icon button opens it as a full-width row -->
+      <button type="button" class="search-toggle" id="search-toggle" aria-expanded="false" aria-controls="header-search" aria-label="Search">
+        <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      </button>
+      <form class="header-search" id="header-search" role="search" autocomplete="off">
+        <label class="sr-only" for="search-input">Search brands and items</label>
+        <svg aria-hidden="true" class="icon search-icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input type="search" id="search-input" placeholder="Search the shop" enterkeyhint="search"
+               role="combobox" aria-expanded="false" aria-controls="search-results" aria-autocomplete="list">
+        <button type="button" class="search-clear" id="search-clear" aria-label="Clear search" hidden>
+          <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+        <div class="search-results" id="search-results" role="listbox" aria-label="Search suggestions" hidden></div>
+      </form>
+
+      <!-- Wishlist: opens the customer's saved items (saved on their device) -->
+      <button type="button" class="header-saved" id="header-saved" aria-label="Your wishlist">
+        <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+        <span class="header-saved-count" id="header-saved-count" hidden>0</span>
+      </button>
 
       <a class="btn btn-gold btn-sm header-cta" data-wa="Hi JP, I'd like to make an enquiry." href="#" target="_blank" rel="noopener">
         <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
@@ -395,10 +439,9 @@
 
     <!-- HERO -->
     <section class="hero">
-      <!-- Shoe montage. The .mov is H.264, so type="video/mp4" lets Chrome/Edge/Safari play it.
-           If you export an .mp4 later, add it as the first <source>. -->
+      <!-- Shoe montage: a web MP4 (H.264) made from the original iPhone .mov, so it plays in every browser -->
       <video class="hero-bg" id="hero-video" autoplay muted loop playsinline preload="auto" poster="Media/web/IMG_9293.jpg" aria-hidden="true">
-        <source src="Media/copy_EB72F6FF-6D22-4C18-8544-6E9E620C5939.mov" type="video/mp4">
+        <source src="Media/web/hero-montage.mp4" type="video/mp4">
       </video>
       <div class="hero-shade"></div>
       <div class="container hero-content">
@@ -409,6 +452,7 @@
         <div class="hero-ctas">
           <a href="#stock" class="btn btn-gold">Shop the edit</a>
           <a href="#sourcing" class="btn btn-ghost">Request an item</a>
+          <a href="#private-client" class="btn btn-ghost hero-pc" data-open-pc>Become a Private Client</a>
         </div>
       </div>
       <button class="video-toggle" id="video-toggle" aria-label="Pause background video" aria-pressed="false">
@@ -488,8 +532,44 @@
         </div>
         </div>
 
+        <!-- Filter button, active filter chips, item count and sort (filter options are set in FILTERS in js/data.js) -->
+        <div class="shop-toolbar">
+          <button type="button" class="filter-open" id="filter-open" aria-haspopup="dialog" aria-controls="filter-drawer">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg>
+            Filter<span class="filter-open-count" id="filter-open-count" hidden></span>
+          </button>
+          <ul class="filter-chips" id="filter-chips" aria-label="Active filters"></ul>
+          <div class="toolbar-end">
+            <!-- When the supplier stock was last checked (the sync runs every hour) -->
+            <p class="live-stock" id="live-stock" hidden><i class="live-dot"></i><span>Live stock · checked <span class="live-ago"></span></span></p>
+            <p class="result-count" id="result-count" aria-live="polite"></p>
+            <label class="sort">
+              <span class="sr-only">Sort by</span>
+              <select id="sort-select">
+                <option value="newest">Newest</option>
+                <option value="price-asc">Price: low to high</option>
+                <option value="price-desc">Price: high to low</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <!-- Shown on the wishlist: one WhatsApp message about every saved item -->
+        <div class="saved-bar" id="saved-bar" hidden>
+          <p>Your saved pieces are kept on this device, ready whenever you are.</p>
+          <a class="btn btn-gold btn-sm" id="saved-enquire" href="#" target="_blank" rel="noopener">Enquire about all saved items</a>
+        </div>
+
         <!-- Newest first: items appear in the order they're listed in js/data.js -->
         <ul class="product-grid" id="product-grid"></ul>
+        <div class="load-more-wrap">
+          <button type="button" class="btn btn-ghost" id="load-more" hidden><span>Show more</span></button>
+        </div>
+        <div class="empty-state" id="empty-filtered" hidden>
+          <p>No pieces match your filters.</p>
+          <p><button type="button" class="btn btn-ghost" id="empty-clear">Clear filters</button></p>
+          <p>Can't see what you're after? <a href="#sourcing">Send a sourcing request</a> and we'll find it for you.</p>
+        </div>
         <p class="empty-state" id="empty-state" hidden>Nothing <span id="empty-what">in this category</span> in stock right now. <a href="#sourcing">Send a sourcing request</a> and we'll find it for you.</p>
       </div>
     </section>
@@ -562,8 +642,19 @@
               <label for="s-notes">Anything else?</label>
               <textarea id="s-notes" name="Notes" rows="2"></textarea>
             </div>
+            <!-- Photo picker: on phones the photos are shared to WhatsApp with the request (js/main.js) -->
+            <div class="photo-field">
+              <p class="photo-label" id="s-photos-label">Photos <span class="photo-hint">Optional, up to 6. Screenshots or pictures of what you're after.</span></p>
+              <input type="file" id="s-photos" class="photo-input" accept="image/*" multiple aria-labelledby="s-photos-label s-photos-add">
+              <ul class="photo-grid" id="s-photos-grid">
+                <li class="photo-add-item"><label class="photo-add" for="s-photos" id="s-photos-add">
+                  <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>Add photos</label></li>
+              </ul>
+              <p class="photo-count" id="s-photos-count" aria-live="polite"></p>
+            </div>
             <button type="submit" class="btn btn-gold btn-block">Send request on WhatsApp</button>
-            <p class="form-note">Opens WhatsApp with your request pre-filled.</p>
+            <p class="form-note">Opens WhatsApp with your request ready to send. On your phone, any photos are sent with it.</p>
+            <div class="form-status" id="sourcing-form-status" role="status"></div>
           </form>
 
           <form class="form" id="sell-form" role="tabpanel" aria-labelledby="tab-sell" novalidate hidden>
@@ -600,8 +691,18 @@
               <label for="v-extras">Box, dust bag or receipt?</label>
               <input id="v-extras" name="Includes" placeholder="e.g. Box and dust bag">
             </div>
+            <div class="photo-field">
+              <p class="photo-label" id="v-photos-label">Photos <span class="photo-hint">Up to 6. Front, back, tags, serial numbers and any wear.</span></p>
+              <input type="file" id="v-photos" class="photo-input" accept="image/*" multiple aria-labelledby="v-photos-label v-photos-add">
+              <ul class="photo-grid" id="v-photos-grid">
+                <li class="photo-add-item"><label class="photo-add" for="v-photos" id="v-photos-add">
+                  <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>Add photos</label></li>
+              </ul>
+              <p class="photo-count" id="v-photos-count" aria-live="polite"></p>
+            </div>
             <button type="submit" class="btn btn-gold btn-block">Get a valuation on WhatsApp</button>
-            <p class="form-note">You can attach your photos in the WhatsApp chat.</p>
+            <p class="form-note">On your phone, your photos are sent with your request. On a computer, attach them in the WhatsApp chat.</p>
+            <div class="form-status" id="sell-form-status" role="status"></div>
           </form>
         </div>
       </div>
@@ -624,12 +725,24 @@
       </div>
     </section>
 
+
     <!-- CTA -->
     <section class="cta-band">
       <div class="container">
         <h2>Looking for something specific?</h2>
         <p>Message us now. Most requests get a reply the same day.</p>
         <a href="#" class="btn btn-gold" data-wa="Hi JP, I'm looking for...">Start a conversation</a>
+      </div>
+    </section>
+
+    <!-- Recently viewed: the last pieces this visitor opened (saved on their device; filled in by js/main.js) -->
+    <section class="section recent" id="recent" aria-labelledby="recent-title" hidden>
+      <div class="container">
+        <div class="recent-head">
+          <h2 class="recent-title" id="recent-title">Recently viewed</h2>
+          <button type="button" class="recent-clear" id="recent-clear">Clear</button>
+        </div>
+        <ul class="recent-list" id="recent-list"></ul>
       </div>
     </section>
   </main>
@@ -639,6 +752,15 @@
       <div>
         <img class="footer-logo" src="Media/web/IMG_9218.jpg" alt="JP.ReserveCo Personal Shopping" width="1206" height="1381" loading="lazy">
         <button type="button" class="footer-newsletter" id="footer-newsletter" hidden>Get <span class="nl-offer-short">10% off</span>: join the list</button>
+      </div>
+      <div>
+        <h2 class="footer-head">About Us</h2>
+        <ul class="footer-links">
+          <li><a href="authenticity.html">Authenticity Guarantee</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="https://instagram.com/JP.ReserveCo" target="_blank" rel="noopener">Latest News</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+        </ul>
       </div>
       <div>
         <h2 class="footer-head">Customer Service</h2>
@@ -663,6 +785,138 @@
   </footer>
 
   <!-- NEWSLETTER POP-UP — settings live in NEWSLETTER in js/data.js; sign-ups go to Brevo -->
+  <!-- PRIVATE CLIENT: three short steps (sizes, style, budget) that send their details to WhatsApp (js/main.js) -->
+  <dialog class="newsletter private-client" id="private-client" aria-labelledby="pc-heading">
+    <div class="pc-body">
+      <button type="button" class="qv-close nl-close pc-close" aria-label="Close">
+        <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+      <h2 class="sr-only" id="pc-heading">Become a Private Client</h2>
+      <div class="pc-progress" aria-hidden="true"><span class="pc-progress-bar"></span></div>
+      <p class="pc-step-label" id="pc-step-label" aria-live="polite">Step 1 of 3 · Your sizes</p>
+
+      <form class="form pc-form" id="pc-form" novalidate>
+        <!-- Step 1: who they are and their sizes -->
+        <section class="pc-step" data-step="1" aria-labelledby="pc-t1">
+          <h3 class="pc-title" id="pc-t1">First look, <em>before anyone else.</em></h3>
+          <p class="pc-intro">Tell us your sizes and style. When new pieces arrive that suit you, we'll message you on WhatsApp before they're listed.</p>
+          <div class="field">
+            <label for="pc-name">Your name <span class="req" aria-hidden="true">*</span></label>
+            <input id="pc-name" autocomplete="name" required>
+            <p class="error" id="pc-name-err"></p>
+          </div>
+          <fieldset class="pc-group">
+            <legend>Clothing</legend>
+            <div class="pc-chips">
+              <label class="pc-chip pc-chip-size"><input type="radio" name="clothing" value="XS"><span>XS</span></label>
+              <label class="pc-chip pc-chip-size"><input type="radio" name="clothing" value="S"><span>S</span></label>
+              <label class="pc-chip pc-chip-size"><input type="radio" name="clothing" value="M"><span>M</span></label>
+              <label class="pc-chip pc-chip-size"><input type="radio" name="clothing" value="L"><span>L</span></label>
+              <label class="pc-chip pc-chip-size"><input type="radio" name="clothing" value="XL"><span>XL</span></label>
+              <label class="pc-chip pc-chip-size"><input type="radio" name="clothing" value="XXL"><span>XXL</span></label>
+            </div>
+          </fieldset>
+          <div class="field">
+            <label for="pc-shoes">Shoes</label>
+            <select id="pc-shoes">
+              <option value="">Choose your size</option>
+              <option>UK 3</option>
+              <option>UK 3.5</option>
+              <option>UK 4</option>
+              <option>UK 4.5</option>
+              <option>UK 5</option>
+              <option>UK 5.5</option>
+              <option>UK 6</option>
+              <option>UK 6.5</option>
+              <option>UK 7</option>
+              <option>UK 7.5</option>
+              <option>UK 8</option>
+              <option>UK 8.5</option>
+              <option>UK 9</option>
+              <option>UK 9.5</option>
+              <option>UK 10</option>
+              <option>UK 10.5</option>
+              <option>UK 11</option>
+              <option>UK 11.5</option>
+              <option>UK 12</option>
+              <option>UK 13</option>
+            </select>
+          </div>
+        </section>
+
+        <!-- Step 2: brands and what they shop for -->
+        <section class="pc-step" data-step="2" aria-labelledby="pc-t2" hidden>
+          <h3 class="pc-title" id="pc-t2">Which houses <em>do you love?</em></h3>
+          <fieldset class="pc-group">
+            <legend class="sr-only">Favourite brands</legend>
+            <div class="pc-chips">
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Louis Vuitton"><span>Louis Vuitton</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Dior"><span>Dior</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Goyard"><span>Goyard</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Hermès"><span>Hermès</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Chanel"><span>Chanel</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Prada"><span>Prada</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Moncler"><span>Moncler</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Canada Goose"><span>Canada Goose</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Stone Island"><span>Stone Island</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Chrome Hearts"><span>Chrome Hearts</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Amiri"><span>Amiri</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Casablanca"><span>Casablanca</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Loro Piana"><span>Loro Piana</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Burberry"><span>Burberry</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Fear of God"><span>Fear of God</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Supreme"><span>Supreme</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Nike"><span>Nike</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Jordan"><span>Jordan</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Asics"><span>Asics</span></label>
+              <label class="pc-chip"><input type="checkbox" name="brand" value="Saucony"><span>Saucony</span></label>
+            </div>
+            <label class="sr-only" for="pc-other">Other brands</label>
+            <input id="pc-other" class="pc-other" placeholder="Any others? Rolex, Represent…">
+          </fieldset>
+          <fieldset class="pc-group">
+            <legend>What do you shop for?</legend>
+            <div class="pc-chips">
+              <label class="pc-chip"><input type="checkbox" name="for" value="Everyday"><span>Everyday</span></label>
+              <label class="pc-chip"><input type="checkbox" name="for" value="Activewear"><span>Activewear</span></label>
+              <label class="pc-chip"><input type="checkbox" name="for" value="Holidays"><span>Holidays</span></label>
+              <label class="pc-chip"><input type="checkbox" name="for" value="Events and occasions"><span>Events and occasions</span></label>
+              <label class="pc-chip"><input type="checkbox" name="for" value="Winter"><span>Winter</span></label>
+              <label class="pc-chip"><input type="checkbox" name="for" value="Gifts"><span>Gifts</span></label>
+              <label class="pc-chip"><input type="checkbox" name="for" value="Investment pieces"><span>Investment pieces</span></label>
+            </div>
+          </fieldset>
+        </section>
+
+        <!-- Step 3: budget, notes and send -->
+        <section class="pc-step" data-step="3" aria-labelledby="pc-t3" hidden>
+          <h3 class="pc-title" id="pc-t3">And your budget <em>per piece?</em></h3>
+          <fieldset class="pc-group">
+            <legend class="sr-only">Budget per piece</legend>
+            <div class="pc-list">
+              <label class="pc-row"><input type="radio" name="budget" value="Under £200"><span>Under £200</span></label>
+              <label class="pc-row"><input type="radio" name="budget" value="£200 to £500"><span>£200 to £500</span></label>
+              <label class="pc-row"><input type="radio" name="budget" value="£500 to £1,000"><span>£500 to £1,000</span></label>
+              <label class="pc-row"><input type="radio" name="budget" value="£1,000 to £2,500"><span>£1,000 to £2,500</span></label>
+              <label class="pc-row"><input type="radio" name="budget" value="£2,500+"><span>£2,500+</span></label>
+            </div>
+          </fieldset>
+          <div class="field">
+            <label for="pc-notes">Anything else?</label>
+            <textarea id="pc-notes" rows="2" placeholder="Colours you love, pieces you're hunting for…"></textarea>
+          </div>
+        </section>
+
+        <div class="pc-nav">
+          <button type="button" class="pc-back" id="pc-back" hidden>Back</button>
+          <button type="button" class="btn btn-gold pc-next" id="pc-next">Continue</button>
+          <button type="submit" class="btn btn-gold pc-submit" id="pc-submit" hidden>Request membership</button>
+        </div>
+        <p class="pc-small">Complimentary · No obligation · Replies on WhatsApp</p>
+      </form>
+    </div>
+  </dialog>
+
   <dialog class="newsletter" id="newsletter" aria-labelledby="nl-title" aria-describedby="nl-intro">
     <div class="nl-panel">
       <button type="button" class="qv-close nl-close" aria-label="Close">
@@ -707,7 +961,27 @@
     </div>
   </dialog>
 
+  <!-- FILTER PANEL — slides in from the left; sections are built by js/main.js from FILTERS in js/data.js -->
+  <dialog class="filter-drawer" id="filter-drawer" aria-labelledby="filter-drawer-title">
+    <div class="fd-panel">
+      <div class="fd-head">
+        <h2 class="fd-title" id="filter-drawer-title">Filter</h2>
+        <button type="button" class="qv-close fd-close" aria-label="Close filters">
+          <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <form class="fd-body" id="filter-form" onsubmit="return false"></form>
+      <div class="fd-foot">
+        <button type="button" class="btn btn-ghost" id="filter-clear">Clear all</button>
+        <button type="button" class="btn btn-gold" id="filter-apply">Show items</button>
+      </div>
+    </div>
+  </dialog>
+
   <!-- QUICK VIEW — filled in by js/main.js when a product is tapped -->
+  <!-- Short message when an item is saved or removed from the wishlist -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
   <dialog class="quick-view" id="quick-view" aria-labelledby="qv-title">
     <div class="qv-panel">
       <button type="button" class="qv-close" aria-label="Close">
@@ -721,16 +995,34 @@
         <p class="qv-brand"></p>
         <h2 class="qv-name" id="qv-title"></h2>
         <p class="qv-price product-price"></p>
-        <dl class="qv-facts"></dl>
-        <p class="qv-details" hidden></p>
+        <p class="qv-live" hidden><i class="live-dot"></i><span><span class="qv-live-in">In stock</span> · stock checked <span class="live-ago-long"></span></span></p>
+        <!-- Item description: condition, tags/box, sizes and availability (written by js/main.js) -->
+        <div class="qv-details"></div>
+        <!-- Size picker for items in several sizes (filled in by js/main.js) -->
+        <fieldset class="qv-sizes" hidden>
+          <legend class="qv-size-label">Select your size</legend>
+          <div class="qv-size-list"></div>
+        </fieldset>
         <div class="qv-actions">
           <a class="btn btn-gold qv-cta" href="#" target="_blank" rel="noopener">Enquire on WhatsApp</a>
           <span class="qv-wish"></span>
+          <!-- Shares a direct link to this item (phone share menu, or copies the link on a computer) -->
+          <button type="button" class="qv-share" aria-label="Share this item">
+            <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M12 3v12M7 8l5-5 5 5"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg>
+          </button>
         </div>
+        <!-- Asks for the item in a size that isn't listed (filled in by js/main.js) -->
+        <a class="btn btn-ghost btn-sm btn-block qv-request" href="#" target="_blank" rel="noopener" hidden>Request your size</a>
+        <p class="qv-share-status" role="status"></p>
         <p class="qv-note">
           <svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
           Authenticity guaranteed · Tracked UK delivery
         </p>
+        <!-- Other pieces this visitor viewed recently (filled in by js/main.js) -->
+        <div class="qv-recent" hidden>
+          <p class="qv-recent-title">You recently viewed</p>
+          <ul class="qv-recent-list"></ul>
+        </div>
       </div>
     </div>
   </dialog>
@@ -740,7 +1032,8 @@
   </a>
 
   <!-- Bump the ?v= number after editing these files so returning visitors get the new version -->
-  <script src="js/data.js?v=62"></script>
-  <script src="js/main.js?v=62"></script>
+  <script src="js/data.js?v=111"></script>
+  <script src="js/stock.js?v=111"></script>
+  <script src="js/main.js?v=111"></script>
 </body>
 </html>
