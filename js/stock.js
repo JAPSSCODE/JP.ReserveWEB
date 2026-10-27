@@ -72,6 +72,7 @@ window.loadStock = (function () {
 
   // Supplier stock files (each is { products: [...] }). If a file isn't there, it's skipped.
   //  - js/wholesale-stock.json: imported from your wholesale supplier's sheet (updated when you send a new sheet)
+  //  - js/b2b-stock.json:       imported from a B2B supplier's WhatsApp stock posts (updated when you send a new export)
   //  - js/supplier-stock.json:  built every hour by scripts/sync-suppliers.mjs (see .github/workflows/deploy.yml)
   async function loadStockFile(file, onData) {
     try {
@@ -148,12 +149,13 @@ window.loadStock = (function () {
   // Order on the site: your own items, then wholesale stock, then the hourly supplier stock
   return async function loadStock() {
     const wholesale = loadStockFile("js/wholesale-stock.json"); // download alongside the sheet
+    const b2b = loadStockFile("js/b2b-stock.json"); // imported from a B2B supplier's WhatsApp posts (scripts/import-b2b.mjs)
     // Supplier stock is re-checked every hour: its items are marked "live", and the time of the last check
     // is kept for the "Live stock · checked 12 min ago" labels
     const supplier = loadStockFile("js/supplier-stock.json", (data) => { window.STOCK_UPDATED = data.updated || null; })
       .then((list) => list.map((p) => ({ ...p, live: true })));
     await loadOwnStock();
-    PRODUCTS.push(...mergeSupplierItems([...(await wholesale), ...(await supplier)]));
+    PRODUCTS.push(...mergeSupplierItems([...(await wholesale), ...(await b2b), ...(await supplier)]));
     PRODUCTS.forEach(labelForMenus);
   };
 

@@ -1,4 +1,4 @@
-// Pulls in-stock items from your Shopify B2B suppliers, adds your markup and writes js/supplier-stock.json,
+// Pulls in-stock items from your Shopify B2B suppliers, prices them (scripts/pricing.mjs) and writes js/supplier-stock.json,
 // which the website loads alongside your own stock.
 //
 // Supplier links are never written in this file (the repository is public). They come from:
@@ -10,10 +10,10 @@
 // Rules
 //  - Only sizes the supplier currently has in stock are listed; items with none are left out, unless the
 //    supplier is set to soldout=show (then they're listed as "Sold", after everything in stock).
-//  - Each supplier can have its own markup (default 15%; see suppliers() below for the settings).
+//  - Prices follow the shop's pricing rule in scripts/pricing.mjs (under £150 +£20, £150–£500 +22%,
+//    £500–£2,000 +18%, over £2,000 +15%), rounded up to the next .95.
 //  - The same new item sold by several suppliers becomes one listing. Each size takes the cheapest
-//    supplier that has it, plus that supplier's markup. One-off pre-owned pieces are never merged.
-//  - Prices are rounded up to the next .95 (e.g. £97.69 → £97.95, £97.97 → £98.95).
+//    supplier that has it. One-off pre-owned pieces are never merged.
 //  - If any supplier can't be reached, the sync stops without changing anything, so items are
 //    never removed by mistake.
 
@@ -24,11 +24,11 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 import sharp from "sharp";
 import { cutout, cutoutByBackground, removeLooseObjects } from "./cutout.mjs";
+import { sellPrice, priceOk, targetPrice, RULE_TEXT } from "./pricing.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = path.join(ROOT, "js", "supplier-stock.json");
 const IMG_DIR = path.join(ROOT, "Media", "supplier"); // processed photos (rebuilt each sync, not uploaded to GitHub)
-const MARKUP = Number(process.env.MARKUP ?? 0.15);
 
 // Photo framing: every item is trimmed to its edges, scaled so its longest side fills the same share
 // of the square, and centred, so all products line up the same size in the grid.
@@ -121,11 +121,6 @@ const SKIP = /membership|syncio|gift ?card|subscription|\btest\b|shipping protec
 const CLOTHING_SIZES = ["XXS", "XS", "S", "M", "L", "XL", "XXL", "XXXL", "4XL", "5XL"];
 
 // ---------- Helpers ----------
-const roundTo95 = (x) => {
-  let r = Math.floor(x) + 0.95;
-  if (r < x - 1e-9) r += 1;
-  return Math.round(r * 100) / 100;
-};
 const norm = (s) => s.toLowerCase()
   .normalize("NFD").replace(/[̀-ͯ]/g, "")
   .replace(/['’‘"“”]/g, "")
@@ -341,9 +336,8 @@ async function fetchCatalogue(base) {
 }
 
 // One supplier per line, optionally followed by settings:
-//   https://example.com                         → default markup (MARKUP, 15%), in-stock items only
-//   https://example.com markup=0.10 soldout=show condition=detect
-//     markup=0.10      10% on this supplier
+//   https://example.com                         → in-stock items only
+//   https://example.com soldout=show condition=detect
 //     soldout=show     also list sold-out items, marked "Sold" (with "Source one for me"), after everything in stock
 //     condition=detect read pre-owned condition from the supplier's descriptions/tags (one-off items stay separate)
 //     photos=clean     cut every product out onto plain white (removes tables, walls, business cards, logos)
@@ -360,7 +354,6 @@ async function suppliers() {
       const opts = Object.fromEntries(parts.slice(i + 1).filter((x) => x.includes("=")).map((x) => x.split("=")));
       list.push({
         url: part.replace(/\/+$/, ""),
-        markup: opts.markup !== undefined ? Number(opts.markup) : MARKUP,
         soldout: opts.soldout === "show",
         detect: opts.condition === "detect",
         clean: opts.photos === "clean",
@@ -400,7 +393,7 @@ for (const [n, src] of sources.entries()) {
     console.error(`Supplier ${n + 1} couldn't be reached (${e.message}). Stopping without changes.`);
     process.exit(1);
   }
-  console.log(`Supplier ${n + 1}: ${catalogue.length} products (${Math.round(src.markup * 100)}% markup${src.soldout ? ", sold-out shown" : ""})`);
+  console.log(`Supplier ${n + 1}: ${catalogue.length} products${src.soldout ? " (sold-out shown)" : ""}`);
   for (const p of catalogue) {
     seen++;
     if (SKIP.test(p.title) || SKIP.test(p.product_type || "")) { skipped++; continue; }
@@ -418,8 +411,8 @@ for (const [n, src] of sources.entries()) {
       allSizes.push(size);
       cheapest = Math.min(cheapest, price);
       if (!v.available) continue;
-      const sell = roundTo95(price * (1 + src.markup));
-      if (!(size in sizes) || sell < sizes[size]) { sizes[size] = sell; costs[size] = { cost: price, markup: src.markup }; }
+      const sell = sellPrice(price);
+      if (!(size in sizes) || sell < sizes[size]) { sizes[size] = sell; costs[size] = { cost: price }; }
     }
     const inStock = Object.keys(sizes).length > 0;
     if (!inStock && !(src.soldout && cheapest < Infinity)) continue; // sold out and not shown
@@ -453,11 +446,11 @@ for (const [n, src] of sources.entries()) {
     if (src.clean) base.cleanPhoto = true; // used only while framing photos, never published
 
     if (!inStock) {
-      // Sold out: shown as "Sold" at the price it would sell for (cost + markup), with no sizes to pick
+      // Sold out: shown as "Sold" at the price it would sell for, with no sizes to pick
       soldOnly.push({
         ...base, sold: true, key: norm(title),
         size: [...new Set(allSizes)].filter((s) => s !== "One size"),
-        price: roundTo95(cheapest * (1 + src.markup)), soldCost: { cost: cheapest, markup: src.markup },
+        price: sellPrice(cheapest), soldCost: { cost: cheapest },
       });
       continue;
     }
@@ -512,17 +505,15 @@ console.log(`Framed ${framed} of ${products.length} photos`);
 const inUse = new Set(products.map((p) => path.basename(p.image)));
 for (const f of await readdir(IMG_DIR)) if (!inUse.has(f)) await rm(path.join(IMG_DIR, f), { force: true });
 
-// Safety check: every price must be at least cost + that supplier's markup (and, after rounding up to
-// .95, less than £1 more). If anything fails, stop without publishing so a wrong price never goes live.
+// Safety check: every price must follow the pricing rule (and, after rounding up to .95, be less than £1
+// above it). If anything fails, stop without publishing so a wrong price never goes live.
 const problems = [];
 let checked = 0;
-const margins = {};
+let lowest = Infinity;
 const check = (label, sell, c) => {
-  const floor = c.cost * (1 + c.markup);
   checked++;
-  if (!(c.cost > 0) || sell < floor - 1e-9 || sell - floor >= 1) problems.push(`${label}: cost £${c.cost}, price £${sell}`);
-  const pct = Math.round(c.markup * 100), m = ((sell - c.cost) / c.cost) * 100;
-  margins[pct] = [Math.min(margins[pct]?.[0] ?? Infinity, m), Math.max(margins[pct]?.[1] ?? 0, m)];
+  if (!priceOk(sell, c.cost)) problems.push(`${label}: cost £${c.cost}, price £${sell} (rule: £${targetPrice(c.cost).toFixed(2)})`);
+  lowest = Math.min(lowest, sell - c.cost);
 };
 for (const p of products) {
   if (p.sold) check(`${p.brand} ${p.name} (sold)`, p.price, p.soldCost);
@@ -532,8 +523,7 @@ if (problems.length) {
   console.error(`Price check FAILED for ${problems.length} prices. Nothing was published:\n  ` + problems.join("\n  "));
   process.exit(1);
 }
-console.log(`Price check passed: ${checked} prices, all at cost + markup rounded up to .95. ` +
-  Object.entries(margins).map(([pct, [lo, hi]]) => `${pct}% suppliers: margins ${lo.toFixed(1)}%-${hi.toFixed(1)}%`).join("; "));
+console.log(`Price check passed: ${checked} prices, all following the pricing rule (${RULE_TEXT}). Smallest profit on any item: £${lowest.toFixed(2)}.`);
 
 // Cost prices are only used for the check above and are never published
 for (const p of products) { delete p.sizeCosts; delete p.soldCost; delete p.cleanPhoto; }

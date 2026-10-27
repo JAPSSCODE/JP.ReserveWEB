@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T09:59:09.213Z",
+ "updated": "2026-10-27T11:30:45.379Z",
  "products": [
   {
    "brand": "Jordan",
@@ -13,12 +13,12 @@
    "image": "Media/wholesale/jordan-air-jordan-1-low-x-travis-scott-velvet-brown.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 4": 575.95,
-    "UK 6": 690.95,
-    "UK 7": 483.95,
-    "UK 7.5": 483.95,
-    "UK 8": 506.95,
-    "UK 9": 529.95
+    "UK 4": 610.95,
+    "UK 6": 708.95,
+    "UK 7": 512.95,
+    "UK 7.5": 512.95,
+    "UK 8": 536.95,
+    "UK 9": 561.95
    },
    "size": [
     "UK 4",
@@ -28,7 +28,7 @@
     "UK 8",
     "UK 9"
    ],
-   "price": 483.95
+   "price": 512.95
   },
   {
    "brand": "Jordan",
@@ -45,14 +45,14 @@
    "image": "Media/wholesale/jordan-air-jordan-1-low-og-x-travis-scott-olive.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 6": 862.95,
-    "UK 7": 644.95,
-    "UK 7.5": 644.95,
-    "UK 8": 644.95,
-    "UK 9": 667.95,
-    "UK 9.5": 667.95,
-    "UK 10": 667.95,
-    "UK 11": 667.95
+    "UK 6": 885.95,
+    "UK 7": 660.95,
+    "UK 7.5": 660.95,
+    "UK 8": 660.95,
+    "UK 9": 684.95,
+    "UK 9.5": 684.95,
+    "UK 10": 684.95,
+    "UK 11": 684.95
    },
    "size": [
     "UK 6",
@@ -64,7 +64,7 @@
     "UK 10",
     "UK 11"
    ],
-   "price": 644.95
+   "price": 660.95
   },
   {
    "brand": "Jordan",
@@ -81,13 +81,13 @@
    "image": "Media/wholesale/jordan-air-jordan-1-low-og-x-travis-scott-sail-tropical-pink.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 7.5": 414.95,
-    "UK 8": 414.95,
-    "UK 8.5": 414.95,
-    "UK 9": 414.95,
-    "UK 9.5": 414.95,
-    "UK 10": 425.95,
-    "UK 11": 437.95
+    "UK 7.5": 439.95,
+    "UK 8": 439.95,
+    "UK 8.5": 439.95,
+    "UK 9": 439.95,
+    "UK 9.5": 439.95,
+    "UK 10": 451.95,
+    "UK 11": 463.95
    },
    "size": [
     "UK 7.5",
@@ -98,7 +98,7 @@
     "UK 10",
     "UK 11"
    ],
-   "price": 414.95
+   "price": 439.95
   },
   {
    "brand": "Jordan",
@@ -115,11 +115,11 @@
    "image": "Media/wholesale/jordan-air-jordan-1-low-og-x-travis-scott-sail-pink.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 7": 437.95,
-    "UK 8": 414.95,
-    "UK 9.5": 414.95,
-    "UK 10": 414.95,
-    "UK 11": 437.95
+    "UK 7": 463.95,
+    "UK 8": 439.95,
+    "UK 9.5": 439.95,
+    "UK 10": 439.95,
+    "UK 11": 463.95
    },
    "size": [
     "UK 7",
@@ -128,7 +128,7 @@
     "UK 10",
     "UK 11"
    ],
-   "price": 414.95
+   "price": 439.95
   },
   {
    "brand": "Vans",
@@ -195,13 +195,13 @@
    "image": "Media/wholesale/saucony-progrid-omni-9-silver-gold.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 8.5": 143.95
+    "UK 8.5": 145.95
    },
    "model": "ProGrid Omni 9",
    "size": [
     "UK 8.5"
    ],
-   "price": 143.95
+   "price": 145.95
   },
   {
    "brand": "Asics",
@@ -218,17 +218,17 @@
    "image": "Media/wholesale/asics-gel-kayano-14-cream-pure-silver.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 4.5": 166.95,
-    "UK 5.5": 166.95,
-    "UK 6": 172.95,
-    "UK 6.5": 172.95,
-    "UK 7": 172.95,
-    "UK 7.5": 172.95,
-    "UK 8": 172.95,
-    "UK 8.5": 172.95,
-    "UK 9": 172.95,
-    "UK 9.5": 178.95,
-    "UK 10": 178.95
+    "UK 4.5": 165.95,
+    "UK 5.5": 165.95,
+    "UK 6": 183.95,
+    "UK 6.5": 183.95,
+    "UK 7": 183.95,
+    "UK 7.5": 183.95,
+    "UK 8": 183.95,
+    "UK 8.5": 183.95,
+    "UK 9": 183.95,
+    "UK 9.5": 189.95,
+    "UK 10": 189.95
    },
    "model": "Kayano 14",
    "size": [
@@ -244,7 +244,7 @@
     "UK 9.5",
     "UK 10"
    ],
-   "price": 166.95
+   "price": 165.95
   },
   {
    "brand": "Asics",
@@ -263,9 +263,9 @@
    "sizePrices": {
     "UK 5": 155.95,
     "UK 5.5": 155.95,
-    "UK 6": 166.95,
-    "UK 8.5": 189.95,
-    "UK 9.5": 201.95
+    "UK 6": 165.95,
+    "UK 8.5": 201.95,
+    "UK 9.5": 213.95
    },
    "model": "Kayano 14",
    "size": [
@@ -292,10 +292,10 @@
    "image": "Media/wholesale/asics-gel-kayano-14-white-pink.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 4": 166.95,
-    "UK 4.5": 166.95,
-    "UK 6.5": 166.95,
-    "UK 7": 166.95
+    "UK 4": 165.95,
+    "UK 4.5": 165.95,
+    "UK 6.5": 165.95,
+    "UK 7": 165.95
    },
    "model": "Kayano 14",
    "size": [
@@ -304,7 +304,7 @@
     "UK 6.5",
     "UK 7"
    ],
-   "price": 166.95
+   "price": 165.95
   },
   {
    "brand": "Asics",
@@ -321,11 +321,11 @@
    "image": "Media/wholesale/asics-gel-kayano-14-cream-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 7": 166.95,
-    "UK 7.5": 166.95,
-    "UK 8": 166.95,
-    "UK 8.5": 166.95,
-    "UK 9": 166.95
+    "UK 7": 165.95,
+    "UK 7.5": 165.95,
+    "UK 8": 165.95,
+    "UK 8.5": 165.95,
+    "UK 9": 165.95
    },
    "model": "Kayano 14",
    "size": [
@@ -335,7 +335,7 @@
     "UK 8.5",
     "UK 9"
    ],
-   "price": 166.95
+   "price": 165.95
   },
   {
    "brand": "Asics",
@@ -352,13 +352,13 @@
    "image": "Media/wholesale/asics-gel-kayano-14-black-pure-silver.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 11": 166.95
+    "UK 11": 165.95
    },
    "model": "Kayano 14",
    "size": [
     "UK 11"
    ],
-   "price": 166.95
+   "price": 165.95
   },
   {
    "brand": "Asics",
@@ -375,15 +375,15 @@
    "image": "Media/wholesale/asics-gel-kayano-14-white-light-blue.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 7": 166.95,
-    "UK 8.5": 166.95
+    "UK 7": 165.95,
+    "UK 8.5": 165.95
    },
    "model": "Kayano 14",
    "size": [
     "UK 7",
     "UK 8.5"
    ],
-   "price": 166.95
+   "price": 165.95
   },
   {
    "brand": "Asics",
@@ -400,9 +400,9 @@
    "image": "Media/wholesale/asics-gel-kayano-14-white-cloud-grey.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 7.5": 166.95,
-    "UK 8": 166.95,
-    "UK 8.5": 166.95
+    "UK 7.5": 165.95,
+    "UK 8": 165.95,
+    "UK 8.5": 165.95
    },
    "model": "Kayano 14",
    "size": [
@@ -410,7 +410,7 @@
     "UK 8",
     "UK 8.5"
    ],
-   "price": 166.95
+   "price": 165.95
   },
   {
    "brand": "Asics",
@@ -427,9 +427,9 @@
    "image": "Media/wholesale/asics-gel-1130-sharkskin.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 6.5": 126.95,
-    "UK 7": 126.95,
-    "UK 7.5": 126.95
+    "UK 6.5": 130.95,
+    "UK 7": 130.95,
+    "UK 7.5": 130.95
    },
    "model": "1130",
    "size": [
@@ -437,7 +437,7 @@
     "UK 7",
     "UK 7.5"
    ],
-   "price": 126.95
+   "price": 130.95
   },
   {
    "brand": "Asics",
@@ -455,10 +455,10 @@
    "image": "Media/wholesale/asics-gel-1130-black-white-pure-silver.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 8.5": 115.95,
-    "UK 9": 115.95,
-    "UK 9.5": 115.95,
-    "UK 10": 115.95
+    "UK 8.5": 120.95,
+    "UK 9": 120.95,
+    "UK 9.5": 120.95,
+    "UK 10": 120.95
    },
    "model": "1130",
    "size": [
@@ -467,7 +467,7 @@
     "UK 9.5",
     "UK 10"
    ],
-   "price": 115.95
+   "price": 120.95
   },
   {
    "brand": "Asics",
@@ -484,15 +484,15 @@
    "image": "Media/wholesale/asics-gel-kayano-14-pure-silver-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 7": 178.95,
-    "UK 7.5": 178.95
+    "UK 7": 189.95,
+    "UK 7.5": 189.95
    },
    "model": "Kayano 14",
    "size": [
     "UK 7",
     "UK 7.5"
    ],
-   "price": 178.95
+   "price": 189.95
   },
   {
    "brand": "Asics",
@@ -509,13 +509,13 @@
    "image": "Media/wholesale/asics-gel-1130-grey-silver-cream.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 7": 103.95,
-    "UK 7.5": 103.95,
-    "UK 8": 103.95,
-    "UK 8.5": 103.95,
-    "UK 9": 103.95,
-    "UK 9.5": 103.95,
-    "UK 10": 103.95
+    "UK 7": 110.95,
+    "UK 7.5": 110.95,
+    "UK 8": 110.95,
+    "UK 8.5": 110.95,
+    "UK 9": 110.95,
+    "UK 9.5": 110.95,
+    "UK 10": 110.95
    },
    "model": "1130",
    "size": [
@@ -527,7 +527,7 @@
     "UK 9.5",
     "UK 10"
    ],
-   "price": 103.95
+   "price": 110.95
   },
   {
    "brand": "Asics",
@@ -544,9 +544,9 @@
    "image": "Media/wholesale/asics-gel-1130-graphite-grey-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 7": 138.95,
-    "UK 7.5": 138.95,
-    "UK 9.5": 138.95
+    "UK 7": 140.95,
+    "UK 7.5": 140.95,
+    "UK 9.5": 140.95
    },
    "model": "1130",
    "size": [
@@ -554,7 +554,7 @@
     "UK 7.5",
     "UK 9.5"
    ],
-   "price": 138.95
+   "price": 140.95
   },
   {
    "brand": "Asics",
@@ -571,9 +571,9 @@
    "image": "Media/wholesale/asics-gel-kayano-14-cream-grey.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 4": 132.95,
-    "UK 4.5": 132.95,
-    "UK 6.5": 143.95,
+    "UK 4": 135.95,
+    "UK 4.5": 135.95,
+    "UK 6.5": 145.95,
     "UK 7": 155.95,
     "UK 7.5": 155.95
    },
@@ -585,7 +585,7 @@
     "UK 7",
     "UK 7.5"
    ],
-   "price": 132.95
+   "price": 135.95
   },
   {
    "brand": "Asics",
@@ -626,13 +626,13 @@
    "image": "Media/wholesale/asics-gel-1130-white-clay-canyon.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 8.5": 74.95
+    "UK 8.5": 85.95
    },
    "model": "1130",
    "size": [
     "UK 8.5"
    ],
-   "price": 74.95
+   "price": 85.95
   },
   {
    "brand": "Asics",
@@ -649,13 +649,13 @@
    "image": "Media/wholesale/asics-gel-1130-white-blue.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 3.5": 109.95
+    "UK 3.5": 115.95
    },
    "model": "1130",
    "size": [
     "UK 3.5"
    ],
-   "price": 109.95
+   "price": 115.95
   },
   {
    "brand": "Asics",
@@ -672,9 +672,9 @@
    "image": "Media/wholesale/asics-gel-1130-steel-grey-silver.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 7.5": 103.95,
-    "UK 8": 103.95,
-    "UK 8.5": 103.95
+    "UK 7.5": 110.95,
+    "UK 8": 110.95,
+    "UK 8.5": 110.95
    },
    "model": "1130",
    "size": [
@@ -682,7 +682,7 @@
     "UK 8",
     "UK 8.5"
    ],
-   "price": 103.95
+   "price": 110.95
   },
   {
    "brand": "Asics",
@@ -699,15 +699,15 @@
    "image": "Media/wholesale/asics-gel-kayano-14-cream-steel-blue.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 6.5": 143.95,
-    "UK 7": 143.95
+    "UK 6.5": 145.95,
+    "UK 7": 145.95
    },
    "model": "Kayano 14",
    "size": [
     "UK 6.5",
     "UK 7"
    ],
-   "price": 143.95
+   "price": 145.95
   },
   {
    "brand": "Nike",
@@ -724,9 +724,9 @@
    "image": "Media/wholesale/nike-air-force-1-low-black-patent-grey.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 9": 241.95,
-    "UK 10": 241.95,
-    "UK 11": 241.95
+    "UK 9": 256.95,
+    "UK 10": 256.95,
+    "UK 11": 256.95
    },
    "model": "Air Force",
    "size": [
@@ -734,7 +734,7 @@
     "UK 10",
     "UK 11"
    ],
-   "price": 241.95
+   "price": 256.95
   },
   {
    "brand": "Nike",
@@ -751,13 +751,13 @@
    "image": "Media/wholesale/nike-air-force-1-low-green-camo-pink.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 8.5": 143.95
+    "UK 8.5": 145.95
    },
    "model": "Air Force",
    "size": [
     "UK 8.5"
    ],
-   "price": 143.95
+   "price": 145.95
   },
   {
    "brand": "Jordan",
@@ -771,11 +771,11 @@
    "image": "Media/wholesale/jordan-air-jordan-5-retro-cool-grey.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 7.5": 276.95,
-    "UK 8": 264.95,
-    "UK 8.5": 264.95,
-    "UK 9": 264.95,
-    "UK 12": 287.95
+    "UK 7.5": 292.95,
+    "UK 8": 280.95,
+    "UK 8.5": 280.95,
+    "UK 9": 280.95,
+    "UK 12": 305.95
    },
    "size": [
     "UK 7.5",
@@ -784,7 +784,7 @@
     "UK 9",
     "UK 12"
    ],
-   "price": 264.95
+   "price": 280.95
   },
   {
    "brand": "Jordan",
@@ -798,14 +798,14 @@
    "image": "Media/wholesale/jordan-air-jordan-4-retro-black-cat.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 9": 281.95,
-    "UK 9.5": 281.95
+    "UK 9": 298.95,
+    "UK 9.5": 298.95
    },
    "size": [
     "UK 9",
     "UK 9.5"
    ],
-   "price": 281.95
+   "price": 298.95
   },
   {
    "brand": "Nike",
@@ -822,13 +822,13 @@
    "image": "Media/wholesale/nike-p-6000-flat-pewter.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 6": 97.95,
-    "UK 6.5": 97.95,
-    "UK 7": 97.95,
-    "UK 8": 97.95,
-    "UK 8.5": 97.95,
-    "UK 9": 109.95,
-    "UK 9.5": 109.95
+    "UK 6": 105.95,
+    "UK 6.5": 105.95,
+    "UK 7": 105.95,
+    "UK 8": 105.95,
+    "UK 8.5": 105.95,
+    "UK 9": 115.95,
+    "UK 9.5": 115.95
    },
    "model": "P6000",
    "size": [
@@ -840,7 +840,7 @@
     "UK 9",
     "UK 9.5"
    ],
-   "price": 97.95
+   "price": 105.95
   },
   {
    "brand": "Nike",
@@ -854,15 +854,15 @@
    "image": "Media/wholesale/nike-air-force-1-low-x-supreme-white.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 10.5": 161.95,
-    "UK 11": 161.95
+    "UK 10.5": 160.95,
+    "UK 11": 160.95
    },
    "model": "Air Force",
    "size": [
     "UK 10.5",
     "UK 11"
    ],
-   "price": 161.95
+   "price": 160.95
   },
   {
    "brand": "Jordan",
@@ -879,12 +879,12 @@
    "image": "Media/wholesale/jordan-air-jordan-11-retro-gamma-blue.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 6": 230.95
+    "UK 6": 244.95
    },
    "size": [
     "UK 6"
    ],
-   "price": 230.95
+   "price": 244.95
   },
   {
    "brand": "Jordan",
@@ -898,12 +898,12 @@
    "image": "Media/wholesale/jordan-air-jordan-4-retro-cool-grey.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 7": 299.95
+    "UK 7": 317.95
    },
    "size": [
     "UK 7"
    ],
-   "price": 299.95
+   "price": 317.95
   },
   {
    "brand": "Nike",
@@ -920,15 +920,15 @@
    "image": "Media/wholesale/nike-p-6000-black-blue.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 6": 86.95,
-    "UK 7.5": 97.95
+    "UK 6": 95.95,
+    "UK 7.5": 105.95
    },
    "model": "P6000",
    "size": [
     "UK 6",
     "UK 7.5"
    ],
-   "price": 86.95
+   "price": 95.95
   },
   {
    "brand": "Jordan",
@@ -945,16 +945,16 @@
    "image": "Media/wholesale/jordan-air-jordan-4-retro-bred-reimagined.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 4.5": 103.95,
-    "UK 5": 103.95,
-    "UK 7.5": 287.95
+    "UK 4.5": 110.95,
+    "UK 5": 110.95,
+    "UK 7.5": 305.95
    },
    "size": [
     "UK 4.5",
     "UK 5",
     "UK 7.5"
    ],
-   "price": 103.95
+   "price": 110.95
   },
   {
    "brand": "Jordan",
@@ -968,12 +968,12 @@
    "image": "Media/wholesale/jordan-air-jordan-4-retro-university-blue.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 12": 322.95
+    "UK 12": 341.95
    },
    "size": [
     "UK 12"
    ],
-   "price": 322.95
+   "price": 341.95
   },
   {
    "brand": "Jordan",
@@ -990,12 +990,12 @@
    "image": "Media/wholesale/jordan-air-jordan-4-retro-motorsport.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 10": 322.95
+    "UK 10": 341.95
    },
    "size": [
     "UK 10"
    ],
-   "price": 322.95
+   "price": 341.95
   },
   {
    "brand": "Jordan",
@@ -1013,14 +1013,14 @@
    "image": "Media/wholesale/jordan-air-jordan-4-retro-infrared.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 4.5": 138.95,
-    "UK 7.5": 218.95
+    "UK 4.5": 140.95,
+    "UK 7.5": 231.95
    },
    "size": [
     "UK 4.5",
     "UK 7.5"
    ],
-   "price": 138.95
+   "price": 140.95
   },
   {
    "brand": "Jordan",
@@ -1037,14 +1037,14 @@
    "image": "Media/wholesale/jordan-air-jordan-4-retro-military-blue.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 4.5": 138.95,
-    "UK 8.5": 218.95
+    "UK 4.5": 140.95,
+    "UK 8.5": 231.95
    },
    "size": [
     "UK 4.5",
     "UK 8.5"
    ],
-   "price": 138.95
+   "price": 140.95
   },
   {
    "brand": "Jordan",
@@ -1058,12 +1058,12 @@
    "image": "Media/wholesale/jordan-air-jordan-4-x-off-white-sail.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 7": 805.95
+    "UK 7": 826.95
    },
    "size": [
     "UK 7"
    ],
-   "price": 805.95
+   "price": 826.95
   },
   {
    "brand": "Jordan",
@@ -1080,12 +1080,12 @@
    "image": "Media/wholesale/jordan-air-jordan-11-retro-bred.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 9.5": 276.95
+    "UK 9.5": 292.95
    },
    "size": [
     "UK 9.5"
    ],
-   "price": 276.95
+   "price": 292.95
   },
   {
    "brand": "Jordan",
@@ -1102,12 +1102,12 @@
    "image": "Media/wholesale/jordan-air-jordan-4-retro-white-grey.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 6": 120.95
+    "UK 6": 125.95
    },
    "size": [
     "UK 6"
    ],
-   "price": 120.95
+   "price": 125.95
   },
   {
    "brand": "Jordan",
@@ -1124,12 +1124,12 @@
    "image": "Media/wholesale/jordan-air-jordan-5-retro-fire-red.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 6": 115.95
+    "UK 6": 120.95
    },
    "size": [
     "UK 6"
    ],
-   "price": 115.95
+   "price": 120.95
   },
   {
    "brand": "Jordan",
@@ -1146,12 +1146,12 @@
    "image": "Media/wholesale/jordan-air-jordan-4-retro-taupe-haze.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 4": 115.95
+    "UK 4": 120.95
    },
    "size": [
     "UK 4"
    ],
-   "price": 115.95
+   "price": 120.95
   },
   {
    "brand": "Jordan",
@@ -1165,12 +1165,12 @@
    "image": "Media/wholesale/jordan-air-jordan-5-retro-bluebird.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 4": 161.95
+    "UK 4": 160.95
    },
    "size": [
     "UK 4"
    ],
-   "price": 161.95
+   "price": 160.95
   },
   {
    "brand": "Jordan",
@@ -1187,14 +1187,14 @@
    "image": "Media/wholesale/jordan-air-jordan-4-retro-fear.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 3.5": 120.95,
-    "UK 4": 120.95
+    "UK 3.5": 125.95,
+    "UK 4": 125.95
    },
    "size": [
     "UK 3.5",
     "UK 4"
    ],
-   "price": 120.95
+   "price": 125.95
   },
   {
    "brand": "Nike",
@@ -1208,13 +1208,13 @@
    "image": "Media/wholesale/nike-air-force-1-low-x-off-white-volt.webp",
    "fit": "framed",
    "sizePrices": {
-    "UK 9.5": 460.95
+    "UK 9.5": 488.95
    },
    "model": "Air Force",
    "size": [
     "UK 9.5"
    ],
-   "price": 460.95
+   "price": 488.95
   },
   {
    "brand": "Valley Dreams",
@@ -1228,14 +1228,14 @@
    "image": "Media/wholesale/valley-dreams-1997-bulldog-tee-blue.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 126.95,
-    "M": 126.95
+    "S": 130.95,
+    "M": 130.95
    },
    "size": [
     "S",
     "M"
    ],
-   "price": 126.95
+   "price": 130.95
   },
   {
    "brand": "Valley Dreams",
@@ -1249,14 +1249,14 @@
    "image": "Media/wholesale/valley-dreams-grin-tee-washed-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 126.95,
-    "M": 126.95
+    "S": 130.95,
+    "M": 130.95
    },
    "size": [
     "S",
     "M"
    ],
-   "price": 126.95
+   "price": 130.95
   },
   {
    "brand": "Valley Dreams",
@@ -1270,12 +1270,12 @@
    "image": "Media/wholesale/valley-dreams-logo-graphic-tee-washed-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 126.95
+    "S": 130.95
    },
    "size": [
     "S"
    ],
-   "price": 126.95
+   "price": 130.95
   },
   {
    "brand": "Valley Dreams",
@@ -1292,12 +1292,12 @@
    "image": "Media/wholesale/valley-dreams-vale-layered-long-sleeve-tee-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "L": 143.95
+    "L": 145.95
    },
    "size": [
     "L"
    ],
-   "price": 143.95
+   "price": 145.95
   },
   {
    "brand": "Valley Dreams",
@@ -1311,12 +1311,12 @@
    "image": "Media/wholesale/valley-dreams-the-dream-tee-washed-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 126.95
+    "S": 130.95
    },
    "size": [
     "S"
    ],
-   "price": 126.95
+   "price": 130.95
   },
   {
    "brand": "Valley Dreams",
@@ -1330,12 +1330,12 @@
    "image": "Media/wholesale/valley-dreams-star-tee-washed-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "M": 126.95
+    "M": 130.95
    },
    "size": [
     "M"
    ],
-   "price": 126.95
+   "price": 130.95
   },
   {
    "brand": "Valley Dreams",
@@ -1352,14 +1352,14 @@
    "image": "Media/wholesale/valley-dreams-lives-forever-polo-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 126.95,
-    "XL": 126.95
+    "S": 130.95,
+    "XL": 130.95
    },
    "size": [
     "S",
     "XL"
    ],
-   "price": 126.95
+   "price": 130.95
   },
   {
    "brand": "Valley Dreams",
@@ -1373,16 +1373,16 @@
    "image": "Media/wholesale/valley-dreams-manhattan-athletic-tee-washed-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 126.95,
-    "M": 126.95,
-    "L": 126.95
+    "S": 130.95,
+    "M": 130.95,
+    "L": 130.95
    },
    "size": [
     "S",
     "M",
     "L"
    ],
-   "price": 126.95
+   "price": 130.95
   },
   {
    "brand": "Valley Dreams",
@@ -1396,14 +1396,14 @@
    "image": "Media/wholesale/valley-dreams-14-patchwork-tee-multi.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 138.95,
-    "M": 138.95
+    "S": 140.95,
+    "M": 140.95
    },
    "size": [
     "S",
     "M"
    ],
-   "price": 138.95
+   "price": 140.95
   },
   {
    "brand": "Valley Dreams",
@@ -1417,12 +1417,12 @@
    "image": "Media/wholesale/valley-dreams-vale-sport-long-sleeve-tee-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "XL": 143.95
+    "XL": 145.95
    },
    "size": [
     "XL"
    ],
-   "price": 143.95
+   "price": 145.95
   },
   {
    "brand": "Valley Dreams",
@@ -1436,10 +1436,10 @@
    "image": "Media/wholesale/valley-dreams-logo-long-sleeve-tee-white.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 138.95,
-    "M": 138.95,
-    "L": 138.95,
-    "XL": 138.95
+    "S": 140.95,
+    "M": 140.95,
+    "L": 140.95,
+    "XL": 140.95
    },
    "size": [
     "S",
@@ -1447,7 +1447,7 @@
     "L",
     "XL"
    ],
-   "price": 138.95
+   "price": 140.95
   },
   {
    "brand": "Valley Dreams",
@@ -1464,14 +1464,14 @@
    "image": "Media/wholesale/valley-dreams-14-ringer-tee-black-red.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 126.95,
-    "L": 126.95
+    "S": 130.95,
+    "L": 130.95
    },
    "size": [
     "S",
     "L"
    ],
-   "price": 126.95
+   "price": 130.95
   },
   {
    "brand": "Valley Dreams",
@@ -1485,14 +1485,14 @@
    "image": "Media/wholesale/valley-dreams-rhinestone-denim-shorts.webp",
    "fit": "framed",
    "sizePrices": {
-    "W30": 218.95,
-    "W36": 218.95
+    "W30": 231.95,
+    "W36": 231.95
    },
    "size": [
     "W30",
     "W36"
    ],
-   "price": 218.95
+   "price": 231.95
   },
   {
    "brand": "Valley Dreams",
@@ -1506,14 +1506,14 @@
    "image": "Media/wholesale/valley-dreams-don-t-do-drugs-tee-pink.webp",
    "fit": "framed",
    "sizePrices": {
-    "L": 126.95,
-    "XL": 126.95
+    "L": 130.95,
+    "XL": 130.95
    },
    "size": [
     "L",
     "XL"
    ],
-   "price": 126.95
+   "price": 130.95
   },
   {
    "brand": "Valley Dreams",
@@ -1527,12 +1527,12 @@
    "image": "Media/wholesale/valley-dreams-don-t-do-drugs-tee-white.webp",
    "fit": "framed",
    "sizePrices": {
-    "L": 126.95
+    "L": 130.95
    },
    "size": [
     "L"
    ],
-   "price": 126.95
+   "price": 130.95
   },
   {
    "brand": "Valley Dreams",
@@ -1546,10 +1546,10 @@
    "image": "Media/wholesale/valley-dreams-chain-graphic-vest-white.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 69.95,
-    "M": 69.95,
-    "L": 69.95,
-    "XXL": 69.95
+    "S": 80.95,
+    "M": 80.95,
+    "L": 80.95,
+    "XXL": 80.95
    },
    "size": [
     "S",
@@ -1557,7 +1557,7 @@
     "L",
     "XXL"
    ],
-   "price": 69.95
+   "price": 80.95
   },
   {
    "brand": "Valley Dreams",
@@ -1571,10 +1571,10 @@
    "image": "Media/wholesale/valley-dreams-ribbed-logo-vest-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 69.95,
-    "M": 69.95,
-    "L": 69.95,
-    "XL": 69.95
+    "S": 80.95,
+    "M": 80.95,
+    "L": 80.95,
+    "XL": 80.95
    },
    "size": [
     "S",
@@ -1582,7 +1582,7 @@
     "L",
     "XL"
    ],
-   "price": 69.95
+   "price": 80.95
   },
   {
    "brand": "Valley Dreams",
@@ -1596,10 +1596,10 @@
    "image": "Media/wholesale/valley-dreams-valemore-ribbed-crop-vest-white.webp",
    "fit": "framed",
    "sizePrices": {
-    "XS": 74.95,
-    "S": 74.95,
-    "M": 74.95,
-    "L": 74.95
+    "XS": 85.95,
+    "S": 85.95,
+    "M": 85.95,
+    "L": 85.95
    },
    "size": [
     "XS",
@@ -1607,7 +1607,7 @@
     "M",
     "L"
    ],
-   "price": 74.95
+   "price": 85.95
   },
   {
    "brand": "Valley Dreams",
@@ -1621,14 +1621,14 @@
    "image": "Media/wholesale/valley-dreams-valemore-ribbed-crop-vest-pink.webp",
    "fit": "framed",
    "sizePrices": {
-    "XS": 74.95,
-    "S": 74.95
+    "XS": 85.95,
+    "S": 85.95
    },
    "size": [
     "XS",
     "S"
    ],
-   "price": 74.95
+   "price": 85.95
   },
   {
    "brand": "Valley Dreams",
@@ -1642,14 +1642,14 @@
    "image": "Media/wholesale/valley-dreams-valemore-ribbed-crop-vest-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "XS": 74.95,
-    "S": 74.95
+    "XS": 85.95,
+    "S": 85.95
    },
    "size": [
     "XS",
     "S"
    ],
-   "price": 74.95
+   "price": 85.95
   },
   {
    "brand": "Valley Dreams",
@@ -1663,16 +1663,16 @@
    "image": "Media/wholesale/valley-dreams-valemore-sport-classic-tee-lilac.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 80.95,
-    "M": 80.95,
-    "L": 80.95
+    "S": 90.95,
+    "M": 90.95,
+    "L": 90.95
    },
    "size": [
     "S",
     "M",
     "L"
    ],
-   "price": 80.95
+   "price": 90.95
   },
   {
    "brand": "Kith",
@@ -1686,12 +1686,12 @@
    "image": "Media/wholesale/kith-coastal-vintage-tee-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "L": 138.95
+    "L": 140.95
    },
    "size": [
     "L"
    ],
-   "price": 138.95
+   "price": 140.95
   },
   {
    "brand": "Kith",
@@ -1705,12 +1705,12 @@
    "image": "Media/wholesale/kith-pegasus-vintage-tee-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "L": 138.95
+    "L": 140.95
    },
    "size": [
     "L"
    ],
-   "price": 138.95
+   "price": 140.95
   },
   {
    "brand": "Kith",
@@ -1724,12 +1724,12 @@
    "image": "Media/wholesale/kith-coastal-tee-white.webp",
    "fit": "framed",
    "sizePrices": {
-    "L": 138.95
+    "L": 140.95
    },
    "size": [
     "L"
    ],
-   "price": 138.95
+   "price": 140.95
   },
   {
    "brand": "Supreme",
@@ -1746,12 +1746,12 @@
    "image": "Media/wholesale/supreme-88-long-sleeve-football-top-brown.webp",
    "fit": "framed",
    "sizePrices": {
-    "XL": 276.95
+    "XL": 292.95
    },
    "size": [
     "XL"
    ],
-   "price": 276.95
+   "price": 292.95
   },
   {
    "brand": "Supreme",
@@ -1765,14 +1765,14 @@
    "image": "Media/wholesale/supreme-88-long-sleeve-football-top-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "L": 230.95,
-    "XL": 230.95
+    "L": 244.95,
+    "XL": 244.95
    },
    "size": [
     "L",
     "XL"
    ],
-   "price": 230.95
+   "price": 244.95
   },
   {
    "brand": "Supreme",
@@ -1786,14 +1786,14 @@
    "image": "Media/wholesale/supreme-39-bandana-football-jersey-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 218.95,
-    "M": 218.95
+    "S": 231.95,
+    "M": 231.95
    },
    "size": [
     "S",
     "M"
    ],
-   "price": 218.95
+   "price": 231.95
   },
   {
    "brand": "Supreme",
@@ -1807,12 +1807,12 @@
    "image": "Media/wholesale/supreme-63-bones-football-jersey-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "L": 218.95
+    "L": 231.95
    },
    "size": [
     "L"
    ],
-   "price": 218.95
+   "price": 231.95
   },
   {
    "brand": "Supreme",
@@ -1829,12 +1829,12 @@
    "image": "Media/wholesale/supreme-39-football-jersey-light-blue.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 218.95
+    "S": 231.95
    },
    "size": [
     "S"
    ],
-   "price": 218.95
+   "price": 231.95
   },
   {
    "brand": "Supreme",
@@ -1851,12 +1851,12 @@
    "image": "Media/wholesale/supreme-39-bandana-football-jersey-white.webp",
    "fit": "framed",
    "sizePrices": {
-    "XL": 207.95
+    "XL": 219.95
    },
    "size": [
     "XL"
    ],
-   "price": 207.95
+   "price": 219.95
   },
   {
    "brand": "Supreme",
@@ -1870,12 +1870,12 @@
    "image": "Media/wholesale/supreme-63-bones-football-jersey-red.webp",
    "fit": "framed",
    "sizePrices": {
-    "XXL": 207.95
+    "XXL": 219.95
    },
    "size": [
     "XXL"
    ],
-   "price": 207.95
+   "price": 219.95
   },
   {
    "brand": "Supreme",
@@ -1889,12 +1889,12 @@
    "image": "Media/wholesale/supreme-25-realtree-football-jersey-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "L": 218.95
+    "L": 231.95
    },
    "size": [
     "L"
    ],
-   "price": 218.95
+   "price": 231.95
   },
   {
    "brand": "Supreme",
@@ -1908,12 +1908,12 @@
    "image": "Media/wholesale/supreme-25-realtree-football-jersey-green.webp",
    "fit": "framed",
    "sizePrices": {
-    "M": 218.95
+    "M": 231.95
    },
    "size": [
     "M"
    ],
-   "price": 218.95
+   "price": 231.95
   },
   {
    "brand": "Supreme",
@@ -1930,16 +1930,16 @@
    "image": "Media/wholesale/supreme-10-long-sleeve-football-top-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "M": 276.95,
-    "L": 276.95,
-    "XL": 276.95
+    "M": 292.95,
+    "L": 292.95,
+    "XL": 292.95
    },
    "size": [
     "M",
     "L",
     "XL"
    ],
-   "price": 276.95
+   "price": 292.95
   },
   {
    "brand": "Supreme",
@@ -1953,14 +1953,14 @@
    "image": "Media/wholesale/supreme-double-knee-denim-painter-shorts-light-blue.webp",
    "fit": "framed",
    "sizePrices": {
-    "W30": 322.95,
-    "W32": 322.95
+    "W30": 341.95,
+    "W32": 341.95
    },
    "size": [
     "W30",
     "W32"
    ],
-   "price": 322.95
+   "price": 341.95
   },
   {
    "brand": "Supreme",
@@ -1974,12 +1974,12 @@
    "image": "Media/wholesale/supreme-logo-print-painter-shorts-brown.webp",
    "fit": "framed",
    "sizePrices": {
-    "W32": 322.95
+    "W32": 341.95
    },
    "size": [
     "W32"
    ],
-   "price": 322.95
+   "price": 341.95
   },
   {
    "brand": "Supreme",
@@ -1993,12 +1993,12 @@
    "image": "Media/wholesale/supreme-script-football-jersey-white.webp",
    "fit": "framed",
    "sizePrices": {
-    "L": 207.95
+    "L": 219.95
    },
    "size": [
     "L"
    ],
-   "price": 207.95
+   "price": 219.95
   },
   {
    "brand": "Supreme",
@@ -2012,12 +2012,12 @@
    "image": "Media/wholesale/supreme-big-logo-oversized-tee-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "L": 138.95
+    "L": 140.95
    },
    "size": [
     "L"
    ],
-   "price": 138.95
+   "price": 140.95
   },
   {
    "brand": "Supreme",
@@ -2034,12 +2034,12 @@
    "image": "Media/wholesale/supreme-10-long-sleeve-football-top-grey.webp",
    "fit": "framed",
    "sizePrices": {
-    "XL": 201.95
+    "XL": 213.95
    },
    "size": [
     "XL"
    ],
-   "price": 201.95
+   "price": 213.95
   },
   {
    "brand": "Supreme",
@@ -2056,12 +2056,12 @@
    "image": "Media/wholesale/supreme-10-long-sleeve-football-top-orange.webp",
    "fit": "framed",
    "sizePrices": {
-    "L": 184.95
+    "L": 195.95
    },
    "size": [
     "L"
    ],
-   "price": 184.95
+   "price": 195.95
   },
   {
    "brand": "Supreme",
@@ -2075,12 +2075,12 @@
    "image": "Media/wholesale/supreme-94-football-jersey-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "XXL": 207.95
+    "XXL": 219.95
    },
    "size": [
     "XXL"
    ],
-   "price": 207.95
+   "price": 219.95
   },
   {
    "brand": "Supreme",
@@ -2094,12 +2094,12 @@
    "image": "Media/wholesale/supreme-arc-logo-tee-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 126.95
+    "S": 130.95
    },
    "size": [
     "S"
    ],
-   "price": 126.95
+   "price": 130.95
   },
   {
    "brand": "Supreme",
@@ -2113,12 +2113,12 @@
    "image": "Media/wholesale/supreme-screwed-up-click-zip-up-hoodie-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "L": 322.95
+    "L": 341.95
    },
    "size": [
     "L"
    ],
-   "price": 322.95
+   "price": 341.95
   },
   {
    "brand": "Supreme",
@@ -2132,12 +2132,12 @@
    "image": "Media/wholesale/supreme-screwed-up-click-zip-up-hoodie-brown.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 322.95
+    "S": 341.95
    },
    "size": [
     "S"
    ],
-   "price": 322.95
+   "price": 341.95
   },
   {
    "brand": "Supreme",
@@ -2151,12 +2151,12 @@
    "image": "Media/wholesale/supreme-screwed-up-click-zip-up-hoodie-royal-blue.webp",
    "fit": "framed",
    "sizePrices": {
-    "M": 322.95
+    "M": 341.95
    },
    "size": [
     "M"
    ],
-   "price": 322.95
+   "price": 341.95
   },
   {
    "brand": "Supreme",
@@ -2170,13 +2170,13 @@
    "image": "Media/wholesale/supreme-screwed-up-click-hoodie-and-shorts-set-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 598.95
+    "S": 613.95
    },
    "set": true,
    "size": [
     "S"
    ],
-   "price": 598.95
+   "price": 613.95
   },
   {
    "brand": "Supreme",
@@ -2190,12 +2190,12 @@
    "image": "Media/wholesale/supreme-racing-sponsors-tee-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 126.95
+    "S": 130.95
    },
    "size": [
     "S"
    ],
-   "price": 126.95
+   "price": 130.95
   },
   {
    "brand": "Supreme",
@@ -2209,13 +2209,13 @@
    "image": "Media/wholesale/supreme-x-the-north-face-tee-and-shorts-set-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 253.95
+    "S": 268.95
    },
    "set": true,
    "size": [
     "S"
    ],
-   "price": 253.95
+   "price": 268.95
   },
   {
    "brand": "Supreme",
@@ -2229,13 +2229,13 @@
    "image": "Media/wholesale/supreme-arc-logo-tee-and-cargo-shorts-set-pink.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 253.95
+    "S": 268.95
    },
    "set": true,
    "size": [
     "S"
    ],
-   "price": 253.95
+   "price": 268.95
   },
   {
    "brand": "Supreme",
@@ -2249,12 +2249,12 @@
    "image": "Media/wholesale/supreme-shop-tee-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 103.95
+    "S": 110.95
    },
    "size": [
     "S"
    ],
-   "price": 103.95
+   "price": 110.95
   },
   {
    "brand": "Supreme",
@@ -2268,12 +2268,12 @@
    "image": "Media/wholesale/supreme-shop-tee-white.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 103.95
+    "S": 110.95
    },
    "size": [
     "S"
    ],
-   "price": 103.95
+   "price": 110.95
   },
   {
    "brand": "Supreme",
@@ -2287,12 +2287,12 @@
    "image": "Media/wholesale/supreme-classic-logo-tee-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 97.95
+    "S": 105.95
    },
    "size": [
     "S"
    ],
-   "price": 97.95
+   "price": 105.95
   },
   {
    "brand": "Supreme",
@@ -2306,12 +2306,12 @@
    "image": "Media/wholesale/supreme-motion-logo-tee-red.webp",
    "fit": "framed",
    "sizePrices": {
-    "XL": 86.95
+    "XL": 95.95
    },
    "size": [
     "XL"
    ],
-   "price": 86.95
+   "price": 95.95
   },
   {
    "brand": "Supreme",
@@ -2325,12 +2325,12 @@
    "image": "Media/wholesale/supreme-photo-tee-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 97.95
+    "S": 105.95
    },
    "size": [
     "S"
    ],
-   "price": 97.95
+   "price": 105.95
   },
   {
    "brand": "Supreme",
@@ -2344,14 +2344,14 @@
    "image": "Media/wholesale/supreme-flowers-logo-tee-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 97.95,
-    "XL": 97.95
+    "S": 105.95,
+    "XL": 105.95
    },
    "size": [
     "S",
     "XL"
    ],
-   "price": 97.95
+   "price": 105.95
   },
   {
    "brand": "Supreme",
@@ -2365,12 +2365,12 @@
    "image": "Media/wholesale/supreme-motion-logo-tee-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 92.95
+    "S": 100.95
    },
    "size": [
     "S"
    ],
-   "price": 92.95
+   "price": 100.95
   },
   {
    "brand": "Supreme",
@@ -2384,12 +2384,12 @@
    "image": "Media/wholesale/supreme-sunset-tee-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "M": 86.95
+    "M": 95.95
    },
    "size": [
     "M"
    ],
-   "price": 86.95
+   "price": 95.95
   },
   {
    "brand": "Supreme",
@@ -2403,14 +2403,14 @@
    "image": "Media/wholesale/supreme-box-logo-tee-heather-grey.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 115.95,
-    "XL": 115.95
+    "S": 120.95,
+    "XL": 120.95
    },
    "size": [
     "S",
     "XL"
    ],
-   "price": 115.95
+   "price": 120.95
   },
   {
    "brand": "Supreme",
@@ -2424,14 +2424,14 @@
    "image": "Media/wholesale/supreme-new-york-oval-tee-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "L": 92.95,
-    "XL": 92.95
+    "L": 100.95,
+    "XL": 100.95
    },
    "size": [
     "L",
     "XL"
    ],
-   "price": 92.95
+   "price": 100.95
   },
   {
    "brand": "Supreme",
@@ -2445,12 +2445,12 @@
    "image": "Media/wholesale/supreme-new-york-oval-tee-olive.webp",
    "fit": "framed",
    "sizePrices": {
-    "M": 80.95
+    "M": 90.95
    },
    "size": [
     "M"
    ],
-   "price": 80.95
+   "price": 90.95
   },
   {
    "brand": "Supreme",
@@ -2464,12 +2464,12 @@
    "image": "Media/wholesale/supreme-explosion-graphic-tee-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "M": 80.95
+    "M": 90.95
    },
    "size": [
     "M"
    ],
-   "price": 80.95
+   "price": 90.95
   },
   {
    "brand": "Supreme",
@@ -2483,12 +2483,12 @@
    "image": "Media/wholesale/supreme-hands-graphic-tee-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 103.95
+    "S": 110.95
    },
    "size": [
     "S"
    ],
-   "price": 103.95
+   "price": 110.95
   },
   {
    "brand": "Supreme",
@@ -2507,10 +2507,10 @@
    "image": "Media/wholesale/supreme-big-logo-beanie.webp",
    "fit": "framed",
    "sizePrices": {
-    "Brown": 74.95,
-    "Red": 69.95,
-    "Blue": 69.95,
-    "Purple": 69.95
+    "Brown": 85.95,
+    "Red": 80.95,
+    "Blue": 80.95,
+    "Purple": 80.95
    },
    "option": "Colour",
    "size": [
@@ -2519,7 +2519,7 @@
     "Blue",
     "Purple"
    ],
-   "price": 69.95
+   "price": 80.95
   },
   {
    "brand": "Supreme",
@@ -2536,15 +2536,15 @@
    "image": "Media/wholesale/supreme-big-logo-beanie-camo.webp",
    "fit": "framed",
    "sizePrices": {
-    "Camo Green": 74.95,
-    "Camo Grey": 74.95
+    "Camo Green": 85.95,
+    "Camo Grey": 85.95
    },
    "option": "Colour",
    "size": [
     "Camo Green",
     "Camo Grey"
    ],
-   "price": 74.95
+   "price": 85.95
   },
   {
    "brand": "Supreme",
@@ -2561,15 +2561,15 @@
    "image": "Media/wholesale/supreme-box-logo-balaclava.webp",
    "fit": "framed",
    "sizePrices": {
-    "Red": 92.95,
-    "Blue": 92.95
+    "Red": 100.95,
+    "Blue": 100.95
    },
    "option": "Colour",
    "size": [
     "Red",
     "Blue"
    ],
-   "price": 92.95
+   "price": 100.95
   },
   {
    "brand": "Denim Tears",
@@ -2586,12 +2586,12 @@
    "image": "Media/wholesale/denim-tears-cotton-wreath-sweatshirt-navy.webp",
    "fit": "framed",
    "sizePrices": {
-    "L": 115.95
+    "L": 120.95
    },
    "size": [
     "L"
    ],
-   "price": 115.95
+   "price": 120.95
   },
   {
    "brand": "Denim Tears",
@@ -2608,12 +2608,12 @@
    "image": "Media/wholesale/denim-tears-cotton-wreath-sweatshirt-green.webp",
    "fit": "framed",
    "sizePrices": {
-    "M": 115.95
+    "M": 120.95
    },
    "size": [
     "M"
    ],
-   "price": 115.95
+   "price": 120.95
   },
   {
    "brand": "Fear of God",
@@ -2627,11 +2627,11 @@
    "image": "Media/wholesale/fear-of-god-essentials-1977-tee-and-shorts-set-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "XS": 218.95,
-    "S": 218.95,
-    "M": 218.95,
-    "L": 218.95,
-    "XL": 218.95
+    "XS": 231.95,
+    "S": 231.95,
+    "M": 231.95,
+    "L": 231.95,
+    "XL": 231.95
    },
    "set": true,
    "size": [
@@ -2641,7 +2641,7 @@
     "L",
     "XL"
    ],
-   "price": 218.95
+   "price": 231.95
   },
   {
    "brand": "Fear of God",
@@ -2655,11 +2655,11 @@
    "image": "Media/wholesale/fear-of-god-essentials-x-nba-tee-and-shorts-set-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "XS": 195.95,
-    "S": 195.95,
-    "M": 195.95,
-    "L": 195.95,
-    "XL": 195.95
+    "XS": 207.95,
+    "S": 207.95,
+    "M": 207.95,
+    "L": 207.95,
+    "XL": 207.95
    },
    "set": true,
    "size": [
@@ -2669,7 +2669,7 @@
     "L",
     "XL"
    ],
-   "price": 195.95
+   "price": 207.95
   },
   {
    "brand": "Fear of God",
@@ -2683,11 +2683,11 @@
    "image": "Media/wholesale/fear-of-god-essentials-tee-and-shorts-set-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "XS": 195.95,
-    "S": 195.95,
-    "M": 195.95,
-    "L": 195.95,
-    "XL": 195.95
+    "XS": 207.95,
+    "S": 207.95,
+    "M": 207.95,
+    "L": 207.95,
+    "XL": 207.95
    },
    "set": true,
    "size": [
@@ -2697,7 +2697,7 @@
     "L",
     "XL"
    ],
-   "price": 195.95
+   "price": 207.95
   },
   {
    "brand": "Fear of God",
@@ -2711,11 +2711,11 @@
    "image": "Media/wholesale/fear-of-god-essentials-arch-logo-tee-and-shorts-set-jet-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "XS": 195.95,
-    "S": 195.95,
-    "M": 195.95,
-    "L": 195.95,
-    "XL": 195.95
+    "XS": 207.95,
+    "S": 207.95,
+    "M": 207.95,
+    "L": 207.95,
+    "XL": 207.95
    },
    "set": true,
    "size": [
@@ -2725,7 +2725,7 @@
     "L",
     "XL"
    ],
-   "price": 195.95
+   "price": 207.95
   },
   {
    "brand": "Fear of God",
@@ -2739,13 +2739,13 @@
    "image": "Media/wholesale/fear-of-god-essentials-tee-and-shorts-set-light-oatmeal.webp",
    "fit": "framed",
    "sizePrices": {
-    "L": 207.95
+    "L": 219.95
    },
    "set": true,
    "size": [
     "L"
    ],
-   "price": 207.95
+   "price": 219.95
   },
   {
    "brand": "Fear of God",
@@ -2759,9 +2759,9 @@
    "image": "Media/wholesale/fear-of-god-essentials-hoodie-and-sweatpants-set-light-heather-grey.webp",
    "fit": "framed",
    "sizePrices": {
-    "XS": 276.95,
-    "L": 276.95,
-    "XL": 276.95
+    "XS": 292.95,
+    "L": 292.95,
+    "XL": 292.95
    },
    "set": true,
    "size": [
@@ -2769,7 +2769,7 @@
     "L",
     "XL"
    ],
-   "price": 276.95
+   "price": 292.95
   },
   {
    "brand": "Fear of God",
@@ -2783,9 +2783,9 @@
    "image": "Media/wholesale/fear-of-god-essentials-hoodie-and-sweatpants-set-black.webp",
    "fit": "framed",
    "sizePrices": {
-    "S": 276.95,
-    "L": 276.95,
-    "XL": 276.95
+    "S": 292.95,
+    "L": 292.95,
+    "XL": 292.95
    },
    "set": true,
    "size": [
@@ -2793,7 +2793,7 @@
     "L",
     "XL"
    ],
-   "price": 276.95
+   "price": 292.95
   },
   {
    "brand": "Fear of God",
@@ -2810,9 +2810,9 @@
    "image": "Media/wholesale/fear-of-god-essentials-hoodie-and-sweatpants-set-dark-oatmeal.webp",
    "fit": "framed",
    "sizePrices": {
-    "XS": 276.95,
-    "S": 276.95,
-    "L": 276.95
+    "XS": 292.95,
+    "S": 292.95,
+    "L": 292.95
    },
    "set": true,
    "size": [
@@ -2820,7 +2820,7 @@
     "S",
     "L"
    ],
-   "price": 276.95
+   "price": 292.95
   }
  ]
 }
