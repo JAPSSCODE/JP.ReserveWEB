@@ -8,7 +8,7 @@ const SITE = {
   whatsapp: "447495051804",
   // Leave blank ("") to hide from the site
   instagram: "JP.ReserveCo",       // no @
-  email: "JP.ReserveCo@gmail.com",
+  email: "Jake@jpreserveco.info",
 };
 
 /* ----------------------------------------------------------
