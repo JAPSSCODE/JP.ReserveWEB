@@ -48,7 +48,7 @@ You do this once, after the site is first pushed:
      - `condition=detect`: read pre-owned condition from their descriptions (e.g. "9.5/10" → Excellent). Pre-owned items go in Pre-Loved and stay as their own listings
      - `photos=clean`: cut every product out onto plain white, removing tables, walls, business cards and shop logos. (Photos from other suppliers are cleaned automatically when they don't have a plain background.)
    - Click **Add secret**.
-3. **Run it the first time:** go to the **Actions** tab → **Sync stock and publish site** → **Run workflow**. After about a minute your site is live at **https://japsscode.github.io/JP.ReserveWEB/**.
+3. **Run it the first time:** go to the **Actions** tab → **Sync stock and publish site** → **Run workflow**. After about a minute your site is live at **https://jpreserveco.com/**.
 
 From then on it runs by itself every hour.
 
